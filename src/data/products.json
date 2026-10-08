@@ -373,7 +373,7 @@
   },
   {
     "id": "shw-01",
-    "name": "Sherwani Collection 1",
+    "name": "Majestic Rose Gold Embroidered Sherwani",
     "department": "Men",
     "type": "Sherwani",
     "price": 10000,
@@ -404,7 +404,7 @@
   },
   {
     "id": "shw-02",
-    "name": "Sherwani Collection 2",
+    "name": "Light Beige Intricate Threadwork Sherwani",
     "department": "Men",
     "type": "Sherwani",
     "price": 11000,
@@ -435,7 +435,7 @@
   },
   {
     "id": "shw-03",
-    "name": "Sherwani Collection 3",
+    "name": "Textured Ivory Sequin Sherwani",
     "department": "Men",
     "type": "Sherwani",
     "price": 12000,
@@ -466,7 +466,7 @@
   },
   {
     "id": "shw-04",
-    "name": "Sherwani Collection 4",
+    "name": "Silver Embellished White Sherwani",
     "department": "Men",
     "type": "Sherwani",
     "price": 13000,
@@ -497,7 +497,7 @@
   },
   {
     "id": "shw-05",
-    "name": "Sherwani Collection 5",
+    "name": "Sophisticated Ash Grey Embroidered Sherwani",
     "department": "Men",
     "type": "Sherwani",
     "price": 14000,
@@ -528,7 +528,7 @@
   },
   {
     "id": "shw-06",
-    "name": "Sherwani Collection 6",
+    "name": "Classic Pure White Silk Sherwani",
     "department": "Men",
     "type": "Sherwani",
     "price": 15000,
@@ -559,7 +559,7 @@
   },
   {
     "id": "shw-07",
-    "name": "Sherwani Collection 7",
+    "name": "Opulent Cream & Gold Embellished Sherwani",
     "department": "Men",
     "type": "Sherwani",
     "price": 16000,
@@ -590,7 +590,7 @@
   },
   {
     "id": "shw-08",
-    "name": "Sherwani Collection 8",
+    "name": "Off-White Shoulder Embroidered Sherwani",
     "department": "Men",
     "type": "Sherwani",
     "price": 17000,
@@ -621,7 +621,7 @@
   },
   {
     "id": "shw-09",
-    "name": "Sherwani Collection 9",
+    "name": "Pristine White Floral Embroidered Sherwani",
     "department": "Men",
     "type": "Sherwani",
     "price": 18000,
@@ -652,7 +652,7 @@
   },
   {
     "id": "shw-10",
-    "name": "Sherwani Collection 10",
+    "name": "Regal Gold & Crimson Velvet Sherwani",
     "department": "Men",
     "type": "Sherwani",
     "price": 19000,
@@ -683,7 +683,7 @@
   },
   {
     "id": "shw-11",
-    "name": "Sherwani Collection 11",
+    "name": "Ivory Pearl Embellished Sherwani Set",
     "department": "Men",
     "type": "Sherwani",
     "price": 20000,
@@ -714,7 +714,7 @@
   },
   {
     "id": "shw-12",
-    "name": "Sherwani Collection 12",
+    "name": "Royal Maroon Velvet Embroidered Sherwani",
     "department": "Men",
     "type": "Sherwani",
     "price": 21000,
@@ -745,7 +745,7 @@
   },
   {
     "id": "sar-01",
-    "name": "Saree Collection 1",
+    "name": "Olive Green Silk Saree with Black Border",
     "department": "Women",
     "type": "Saree",
     "price": 10000,
@@ -776,7 +776,7 @@
   },
   {
     "id": "sar-02",
-    "name": "Saree Collection 2",
+    "name": "Rust Orange Ombre Satin Saree",
     "department": "Women",
     "type": "Saree",
     "price": 11000,
@@ -807,7 +807,7 @@
   },
   {
     "id": "sar-03",
-    "name": "Saree Collection 3",
+    "name": "Rose Gold Shimmer Tissue Saree",
     "department": "Women",
     "type": "Saree",
     "price": 12000,
@@ -838,7 +838,7 @@
   },
   {
     "id": "sar-04",
-    "name": "Saree Collection 4",
+    "name": "Maroon Brocade Silk Saree",
     "department": "Women",
     "type": "Saree",
     "price": 13000,
@@ -869,7 +869,7 @@
   },
   {
     "id": "sar-05",
-    "name": "Saree Collection 5",
+    "name": "Soft Pink Embroidered Net Saree",
     "department": "Women",
     "type": "Saree",
     "price": 14000,
@@ -900,7 +900,7 @@
   },
   {
     "id": "sar-06",
-    "name": "Saree Collection 6",
+    "name": "Black Floral Printed Organza Saree",
     "department": "Women",
     "type": "Saree",
     "price": 15000,
@@ -931,7 +931,7 @@
   },
   {
     "id": "sar-07",
-    "name": "Saree Collection 7",
+    "name": "Ice Blue Pearl Embellished Net Saree",
     "department": "Women",
     "type": "Saree",
     "price": 16000,
@@ -962,7 +962,7 @@
   },
   {
     "id": "sar-08",
-    "name": "Saree Collection 8",
+    "name": "Ivory Floral Embroidered Net Saree",
     "department": "Women",
     "type": "Saree",
     "price": 17000,
@@ -993,7 +993,7 @@
   },
   {
     "id": "sar-09",
-    "name": "Saree Collection 9",
+    "name": "Blush Pink Sequin Net Saree",
     "department": "Women",
     "type": "Saree",
     "price": 18000,
@@ -1024,7 +1024,7 @@
   },
   {
     "id": "sar-10",
-    "name": "Saree Collection 10",
+    "name": "Midnight Black Crepe Saree",
     "department": "Women",
     "type": "Saree",
     "price": 19000,
@@ -1055,7 +1055,7 @@
   },
   {
     "id": "sar-11",
-    "name": "Saree Collection 11",
+    "name": "Classic Gold & Maroon Silk Saree",
     "department": "Women",
     "type": "Saree",
     "price": 20000,
@@ -1086,7 +1086,7 @@
   },
   {
     "id": "sar-12",
-    "name": "Saree Collection 12",
+    "name": "Metallic Bronze Silk Saree",
     "department": "Women",
     "type": "Saree",
     "price": 21000,
@@ -1117,7 +1117,7 @@
   },
   {
     "id": "acc-01",
-    "name": "Accessories Collection 1",
+    "name": "Black Suede Embellished Pumps",
     "department": "Accessories",
     "type": "Accessories",
     "price": 10000,
@@ -1145,7 +1145,7 @@
   },
   {
     "id": "acc-02",
-    "name": "Accessories Collection 2",
+    "name": "Cream Leather Ankle Boots",
     "department": "Accessories",
     "type": "Accessories",
     "price": 11000,
@@ -1173,7 +1173,7 @@
   },
   {
     "id": "acc-03",
-    "name": "Accessories Collection 3",
+    "name": "Burgundy Leather Ankle Boots",
     "department": "Accessories",
     "type": "Accessories",
     "price": 12000,
@@ -1201,7 +1201,7 @@
   },
   {
     "id": "acc-04",
-    "name": "Accessories Collection 4",
+    "name": "Classic Black Red-Soled Stilettos",
     "department": "Accessories",
     "type": "Accessories",
     "price": 13000,
@@ -1229,7 +1229,7 @@
   },
   {
     "id": "acc-05",
-    "name": "Accessories Collection 5",
+    "name": "Rose Gold & Silver Solitaire Ring",
     "department": "Accessories",
     "type": "Accessories",
     "price": 14000,
@@ -1257,7 +1257,7 @@
   },
   {
     "id": "acc-06",
-    "name": "Accessories Collection 6",
+    "name": "Sleek Grey Stiletto Heels",
     "department": "Accessories",
     "type": "Accessories",
     "price": 15000,
@@ -1285,7 +1285,7 @@
   },
   {
     "id": "acc-07",
-    "name": "Accessories Collection 7",
+    "name": "Vintage Gold Diamond Pendant Necklace",
     "department": "Accessories",
     "type": "Accessories",
     "price": 16000,
@@ -1313,7 +1313,7 @@
   },
   {
     "id": "acc-08",
-    "name": "Accessories Collection 8",
+    "name": "Matching Gold Engagement Ring Set",
     "department": "Accessories",
     "type": "Accessories",
     "price": 17000,
@@ -1341,7 +1341,7 @@
   },
   {
     "id": "acc-09",
-    "name": "Accessories Collection 9",
+    "name": "Aquamarine & Diamond Necklace Set",
     "department": "Accessories",
     "type": "Accessories",
     "price": 18000,
@@ -1369,7 +1369,7 @@
   },
   {
     "id": "acc-10",
-    "name": "Accessories Collection 10",
+    "name": "Gold Leaf Diamond Pendant Necklace",
     "department": "Accessories",
     "type": "Accessories",
     "price": 19000,
@@ -1397,7 +1397,7 @@
   },
   {
     "id": "acc-11",
-    "name": "Accessories Collection 11",
+    "name": "Heavy Gold Link Men's Bracelet",
     "department": "Accessories",
     "type": "Accessories",
     "price": 20000,
@@ -1425,7 +1425,7 @@
   },
   {
     "id": "acc-12",
-    "name": "Accessories Collection 12",
+    "name": "Contemporary Diamond & Gold Necklace Set",
     "department": "Accessories",
     "type": "Accessories",
     "price": 21000,
@@ -1453,7 +1453,7 @@
   },
   {
     "id": "kur-01",
-    "name": "Kurta Collection 1",
+    "name": "Ochre Yellow Embroidered Kurta Set",
     "department": "Men",
     "type": "Kurta",
     "price": 10000,
@@ -1484,7 +1484,7 @@
   },
   {
     "id": "kur-02",
-    "name": "Kurta Collection 2",
+    "name": "Emerald Green Embroidered Kurta Suit",
     "department": "Men",
     "type": "Kurta",
     "price": 11000,
@@ -1515,7 +1515,7 @@
   },
   {
     "id": "kur-03",
-    "name": "Kurta Collection 3",
+    "name": "Soft Pink Floral Kurta Suit",
     "department": "Men",
     "type": "Kurta",
     "price": 12000,
@@ -1546,7 +1546,7 @@
   },
   {
     "id": "kur-04",
-    "name": "Kurta Collection 4",
+    "name": "Navy Blue Chikankari Men's Kurta",
     "department": "Men",
     "type": "Kurta",
     "price": 13000,
@@ -1577,7 +1577,7 @@
   },
   {
     "id": "kur-05",
-    "name": "Kurta Collection 5",
+    "name": "Classic White Chikankari Men's Kurta",
     "department": "Men",
     "type": "Kurta",
     "price": 14000,
@@ -1608,7 +1608,7 @@
   },
   {
     "id": "kur-06",
-    "name": "Kurta Collection 6",
+    "name": "White & Blue Floral Printed Short Kurta",
     "department": "Men",
     "type": "Kurta",
     "price": 15000,
@@ -1639,7 +1639,7 @@
   },
   {
     "id": "kur-07",
-    "name": "Kurta Collection 7",
+    "name": "Pastel Pink Mirror Work Men's Kurta",
     "department": "Men",
     "type": "Kurta",
     "price": 16000,
@@ -1670,7 +1670,7 @@
   },
   {
     "id": "kur-08",
-    "name": "Kurta Collection 8",
+    "name": "Navy Blue Embroidered Kurta Suit",
     "department": "Men",
     "type": "Kurta",
     "price": 17000,
@@ -1701,7 +1701,7 @@
   },
   {
     "id": "kur-09",
-    "name": "Kurta Collection 9",
+    "name": "Vibrant Mustard Printed Kurta",
     "department": "Men",
     "type": "Kurta",
     "price": 18000,
@@ -1732,7 +1732,7 @@
   },
   {
     "id": "kur-10",
-    "name": "Kurta Collection 10",
+    "name": "Pastel Mint Asymmetric Kurta Set",
     "department": "Men",
     "type": "Kurta",
     "price": 19000,
@@ -1763,7 +1763,7 @@
   },
   {
     "id": "kur-11",
-    "name": "Kurta Collection 11",
+    "name": "Classic White Dhoti Kurta",
     "department": "Men",
     "type": "Kurta",
     "price": 20000,
@@ -1794,7 +1794,7 @@
   },
   {
     "id": "kur-12",
-    "name": "Kurta Collection 12",
+    "name": "Ivory Embroidered Kurta Set",
     "department": "Men",
     "type": "Kurta",
     "price": 21000,
