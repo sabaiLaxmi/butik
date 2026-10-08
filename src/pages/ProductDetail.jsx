@@ -118,10 +118,18 @@ const ProductDetail = () => {
       </AnimatePresence>
 
       <section style={{ paddingTop: 'var(--space-16)', paddingBottom: 'var(--space-8)' }}>
+        <style>{`
+          .pdp-col-left { grid-column: span 7; }
+          .pdp-col-right { grid-column: 9 / span 4; }
+          @media (max-width: 900px) {
+            .pdp-col-left { grid-column: span 12 !important; }
+            .pdp-col-right { grid-column: span 12 !important; }
+          }
+        `}</style>
         <div className="container grid-12" style={{ alignItems: 'flex-start' }}>
           
           {/* Left Column: Vertical Image Gallery */}
-          <div style={{ gridColumn: 'span 7', display: 'flex', gap: 'var(--space-3)' }}>
+          <div className="pdp-col-left" style={{ display: 'flex', gap: 'var(--space-3)' }}>
             
             {/* Thumbnails */}
             <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-2)', width: '80px' }}>
@@ -171,7 +179,7 @@ const ProductDetail = () => {
           </div>
 
           {/* Right Column: Sticky Details */}
-          <div className="pdp-sticky" style={{ gridColumn: '9 / span 4', position: 'sticky', top: '120px' }}>
+          <div className="pdp-col-right pdp-sticky" style={{ position: 'sticky', top: '120px' }}>
             <RevealGroup stagger={0.1}>
               <Reveal>
                 <h1 style={{ fontSize: 'clamp(2rem, 3vw, 3rem)', marginBottom: 'var(--space-1)' }}>{product.name}</h1>
