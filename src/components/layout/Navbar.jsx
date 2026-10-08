@@ -54,7 +54,7 @@ const Navbar = () => {
         boxShadow: scrolled ? '0 4px 12px rgba(0,0,0,0.03)' : 'none',
         transition: 'all 0.3s ease'
       }}>
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '16px 32px' }}>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '8px 32px' }}>
           
           {/* Left: Search */}
           <form onSubmit={handleSearch} style={{ flex: 1, display: 'flex', alignItems: 'center', gap: '8px', color: 'var(--color-stone)' }}>
@@ -98,7 +98,7 @@ const Navbar = () => {
 
         {/* 3. Category Navigation Bar */}
         <nav style={{ borderTop: '1px solid rgba(0,0,0,0.05)', backgroundColor: 'var(--color-white)' }}>
-          <ul style={{ display: 'flex', justifyContent: 'center', gap: '32px', listStyle: 'none', margin: 0, padding: '12px 0', fontSize: '13px', textTransform: 'uppercase', letterSpacing: '0.05em', fontWeight: 500 }}>
+          <ul style={{ display: 'flex', justifyContent: 'center', gap: '32px', listStyle: 'none', margin: 0, padding: '8px 0', fontSize: '13px', textTransform: 'uppercase', letterSpacing: '0.05em', fontWeight: 500 }}>
             <li><Link to="/shop?category=New" style={{ textDecoration: 'none', color: 'var(--color-ink)' }}>New Arrivals</Link></li>
             <li><Link to="/shop?category=Bestsellers" style={{ textDecoration: 'none', color: 'var(--color-ink)' }}>Bestsellers</Link></li>
             <li><Link to="/shop?category=Lehenga" style={{ textDecoration: 'none', color: 'var(--color-ink)' }}>Lehengas</Link></li>

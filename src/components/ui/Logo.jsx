@@ -7,7 +7,7 @@ const Logo = () => {
       <img 
         src="/vastrika-logo.jpg" 
         alt="VASTRIKA Logo" 
-        style={{ height: '80px', objectFit: 'contain', mixBlendMode: 'multiply' }} 
+        style={{ height: '130px', margin: '-25px 0', objectFit: 'contain', mixBlendMode: 'multiply', transform: 'scale(1.2)' }} 
       />
     </Link>
   );
