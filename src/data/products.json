@@ -1,0 +1,1826 @@
+[
+  {
+    "id": "leh-01",
+    "name": "Lehenga Collection 1",
+    "department": "Women",
+    "type": "Lehenga",
+    "price": 10000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": "Beautiful Lehenga crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 10,
+    "stock": 10,
+    "imageQuery": "Lehenga",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/v1791351633/lehnga_1.png"
+    ],
+    "demo": true
+  },
+  {
+    "id": "leh-02",
+    "name": "Lehenga Collection 2",
+    "department": "Women",
+    "type": "Lehenga",
+    "price": 11000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": "Beautiful Lehenga crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 11,
+    "stock": 10,
+    "imageQuery": "Lehenga",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/v1791351632/lehnga_2.jpg"
+    ],
+    "demo": true
+  },
+  {
+    "id": "leh-03",
+    "name": "Lehenga Collection 3",
+    "department": "Women",
+    "type": "Lehenga",
+    "price": 12000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": "Beautiful Lehenga crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 12,
+    "stock": 10,
+    "imageQuery": "Lehenga",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/v1791351631/lehnga_3.jpg"
+    ],
+    "demo": true
+  },
+  {
+    "id": "leh-04",
+    "name": "Lehenga Collection 4",
+    "department": "Women",
+    "type": "Lehenga",
+    "price": 13000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": "Beautiful Lehenga crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 13,
+    "stock": 10,
+    "imageQuery": "Lehenga",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/v1791351631/lehnga_4.jpg"
+    ],
+    "demo": true
+  },
+  {
+    "id": "leh-05",
+    "name": "Lehenga Collection 5",
+    "department": "Women",
+    "type": "Lehenga",
+    "price": 14000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": "Beautiful Lehenga crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 14,
+    "stock": 10,
+    "imageQuery": "Lehenga",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/v1791351631/lehnga_5.jpg"
+    ],
+    "demo": true
+  },
+  {
+    "id": "leh-06",
+    "name": "Lehenga Collection 6",
+    "department": "Women",
+    "type": "Lehenga",
+    "price": 15000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": "Beautiful Lehenga crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 15,
+    "stock": 10,
+    "imageQuery": "Lehenga",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/v1791351632/lehnga_6.jpg"
+    ],
+    "demo": true
+  },
+  {
+    "id": "leh-07",
+    "name": "Lehenga Collection 7",
+    "department": "Women",
+    "type": "Lehenga",
+    "price": 16000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": "Beautiful Lehenga crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 16,
+    "stock": 10,
+    "imageQuery": "Lehenga",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/v1791351631/lehnga_7.jpg"
+    ],
+    "demo": true
+  },
+  {
+    "id": "leh-08",
+    "name": "Lehenga Collection 8",
+    "department": "Women",
+    "type": "Lehenga",
+    "price": 17000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": "Beautiful Lehenga crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 17,
+    "stock": 10,
+    "imageQuery": "Lehenga",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/v1791351651/lehnga_8_-_Copy.jpg"
+    ],
+    "demo": true
+  },
+  {
+    "id": "leh-09",
+    "name": "Lehenga Collection 9",
+    "department": "Women",
+    "type": "Lehenga",
+    "price": 18000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": "Beautiful Lehenga crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 18,
+    "stock": 10,
+    "imageQuery": "Lehenga",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/v1791351651/lehnga_9_-_Copy.jpg"
+    ],
+    "demo": true
+  },
+  {
+    "id": "leh-10",
+    "name": "Lehenga Collection 10",
+    "department": "Women",
+    "type": "Lehenga",
+    "price": 19000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": "Beautiful Lehenga crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 19,
+    "stock": 10,
+    "imageQuery": "Lehenga",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/f_auto/q_auto/l3.jpg"
+    ],
+    "demo": true
+  },
+  {
+    "id": "leh-11",
+    "name": "Lehenga Collection 11",
+    "department": "Women",
+    "type": "Lehenga",
+    "price": 20000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": "Beautiful Lehenga crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 20,
+    "stock": 10,
+    "imageQuery": "Lehenga",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/f_auto/q_auto/l2.jpg"
+    ],
+    "demo": true
+  },
+  {
+    "id": "leh-12",
+    "name": "Lehenga Collection 12",
+    "department": "Women",
+    "type": "Lehenga",
+    "price": 21000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": "Beautiful Lehenga crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 21,
+    "stock": 10,
+    "imageQuery": "Lehenga",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/f_auto/q_auto/l1.png"
+    ],
+    "demo": true
+  },
+  {
+    "id": "shw-01",
+    "name": "Sherwani Collection 1",
+    "department": "Men",
+    "type": "Sherwani",
+    "price": 10000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": "Beautiful Sherwani crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 10,
+    "stock": 10,
+    "imageQuery": "Sherwani",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/v1791436016/sherwani_11.jpg"
+    ],
+    "demo": true
+  },
+  {
+    "id": "shw-02",
+    "name": "Sherwani Collection 2",
+    "department": "Men",
+    "type": "Sherwani",
+    "price": 11000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": "Beautiful Sherwani crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 11,
+    "stock": 10,
+    "imageQuery": "Sherwani",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/v1791436016/sherwani_9.jpg"
+    ],
+    "demo": true
+  },
+  {
+    "id": "shw-03",
+    "name": "Sherwani Collection 3",
+    "department": "Men",
+    "type": "Sherwani",
+    "price": 12000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": "Beautiful Sherwani crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 12,
+    "stock": 10,
+    "imageQuery": "Sherwani",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/v1791436017/sherwani_13.jpg"
+    ],
+    "demo": true
+  },
+  {
+    "id": "shw-04",
+    "name": "Sherwani Collection 4",
+    "department": "Men",
+    "type": "Sherwani",
+    "price": 13000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": "Beautiful Sherwani crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 13,
+    "stock": 10,
+    "imageQuery": "Sherwani",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/v1791436016/sherwani_8.jpg"
+    ],
+    "demo": true
+  },
+  {
+    "id": "shw-05",
+    "name": "Sherwani Collection 5",
+    "department": "Men",
+    "type": "Sherwani",
+    "price": 14000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": "Beautiful Sherwani crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 14,
+    "stock": 10,
+    "imageQuery": "Sherwani",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/v1791436016/sherwani_12.jpg"
+    ],
+    "demo": true
+  },
+  {
+    "id": "shw-06",
+    "name": "Sherwani Collection 6",
+    "department": "Men",
+    "type": "Sherwani",
+    "price": 15000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": "Beautiful Sherwani crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 15,
+    "stock": 10,
+    "imageQuery": "Sherwani",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/v1791436016/sherwani_15.jpg"
+    ],
+    "demo": true
+  },
+  {
+    "id": "shw-07",
+    "name": "Sherwani Collection 7",
+    "department": "Men",
+    "type": "Sherwani",
+    "price": 16000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": "Beautiful Sherwani crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 16,
+    "stock": 10,
+    "imageQuery": "Sherwani",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/v1791436016/sherwani_10.jpg"
+    ],
+    "demo": true
+  },
+  {
+    "id": "shw-08",
+    "name": "Sherwani Collection 8",
+    "department": "Men",
+    "type": "Sherwani",
+    "price": 17000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": "Beautiful Sherwani crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 17,
+    "stock": 10,
+    "imageQuery": "Sherwani",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/v1791436016/sherwani_14.jpg"
+    ],
+    "demo": true
+  },
+  {
+    "id": "shw-09",
+    "name": "Sherwani Collection 9",
+    "department": "Men",
+    "type": "Sherwani",
+    "price": 18000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": "Beautiful Sherwani crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 18,
+    "stock": 10,
+    "imageQuery": "Sherwani",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/v1791436959/shervani_3.jpg"
+    ],
+    "demo": true
+  },
+  {
+    "id": "shw-10",
+    "name": "Sherwani Collection 10",
+    "department": "Men",
+    "type": "Sherwani",
+    "price": 19000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": "Beautiful Sherwani crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 19,
+    "stock": 10,
+    "imageQuery": "Sherwani",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/v1791436959/shervani_6.jpg"
+    ],
+    "demo": true
+  },
+  {
+    "id": "shw-11",
+    "name": "Sherwani Collection 11",
+    "department": "Men",
+    "type": "Sherwani",
+    "price": 20000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": "Beautiful Sherwani crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 20,
+    "stock": 10,
+    "imageQuery": "Sherwani",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/v1791436959/shervani_5.jpg"
+    ],
+    "demo": true
+  },
+  {
+    "id": "shw-12",
+    "name": "Sherwani Collection 12",
+    "department": "Men",
+    "type": "Sherwani",
+    "price": 21000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": "Beautiful Sherwani crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 21,
+    "stock": 10,
+    "imageQuery": "Sherwani",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/v1791436959/shervani_2.jpg"
+    ],
+    "demo": true
+  },
+  {
+    "id": "sar-01",
+    "name": "Saree Collection 1",
+    "department": "Women",
+    "type": "Saree",
+    "price": 10000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": "Beautiful Saree crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 10,
+    "stock": 10,
+    "imageQuery": "Saree",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/v1791438163/saree_1.jpg"
+    ],
+    "demo": true
+  },
+  {
+    "id": "sar-02",
+    "name": "Saree Collection 2",
+    "department": "Women",
+    "type": "Saree",
+    "price": 11000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": "Beautiful Saree crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 11,
+    "stock": 10,
+    "imageQuery": "Saree",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/v1791438162/saree_2.jpg"
+    ],
+    "demo": true
+  },
+  {
+    "id": "sar-03",
+    "name": "Saree Collection 3",
+    "department": "Women",
+    "type": "Saree",
+    "price": 12000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": "Beautiful Saree crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 12,
+    "stock": 10,
+    "imageQuery": "Saree",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/v1791438162/saree_4.jpg"
+    ],
+    "demo": true
+  },
+  {
+    "id": "sar-04",
+    "name": "Saree Collection 4",
+    "department": "Women",
+    "type": "Saree",
+    "price": 13000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": "Beautiful Saree crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 13,
+    "stock": 10,
+    "imageQuery": "Saree",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/v1791438162/saree_3.jpg"
+    ],
+    "demo": true
+  },
+  {
+    "id": "sar-05",
+    "name": "Saree Collection 5",
+    "department": "Women",
+    "type": "Saree",
+    "price": 14000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": "Beautiful Saree crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 14,
+    "stock": 10,
+    "imageQuery": "Saree",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/v1791438162/saree_5.jpg"
+    ],
+    "demo": true
+  },
+  {
+    "id": "sar-06",
+    "name": "Saree Collection 6",
+    "department": "Women",
+    "type": "Saree",
+    "price": 15000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": "Beautiful Saree crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 15,
+    "stock": 10,
+    "imageQuery": "Saree",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/v1791438162/saree_6.jpg"
+    ],
+    "demo": true
+  },
+  {
+    "id": "sar-07",
+    "name": "Saree Collection 7",
+    "department": "Women",
+    "type": "Saree",
+    "price": 16000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": "Beautiful Saree crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 16,
+    "stock": 10,
+    "imageQuery": "Saree",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/v1791438161/saree_8.jpg"
+    ],
+    "demo": true
+  },
+  {
+    "id": "sar-08",
+    "name": "Saree Collection 8",
+    "department": "Women",
+    "type": "Saree",
+    "price": 17000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": "Beautiful Saree crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 17,
+    "stock": 10,
+    "imageQuery": "Saree",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/v1791438161/saree_7.jpg"
+    ],
+    "demo": true
+  },
+  {
+    "id": "sar-09",
+    "name": "Saree Collection 9",
+    "department": "Women",
+    "type": "Saree",
+    "price": 18000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": "Beautiful Saree crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 18,
+    "stock": 10,
+    "imageQuery": "Saree",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/v1791438161/saree_9.jpg"
+    ],
+    "demo": true
+  },
+  {
+    "id": "sar-10",
+    "name": "Saree Collection 10",
+    "department": "Women",
+    "type": "Saree",
+    "price": 19000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": "Beautiful Saree crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 19,
+    "stock": 10,
+    "imageQuery": "Saree",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/f_auto/q_auto/sarees1.png"
+    ],
+    "demo": true
+  },
+  {
+    "id": "sar-11",
+    "name": "Saree Collection 11",
+    "department": "Women",
+    "type": "Saree",
+    "price": 20000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": "Beautiful Saree crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 20,
+    "stock": 10,
+    "imageQuery": "Saree",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/f_auto/q_auto/sarees3.jpg"
+    ],
+    "demo": true
+  },
+  {
+    "id": "sar-12",
+    "name": "Saree Collection 12",
+    "department": "Women",
+    "type": "Saree",
+    "price": 21000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": "Beautiful Saree crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 21,
+    "stock": 10,
+    "imageQuery": "Saree",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/f_auto/q_auto/sarees2.jpg"
+    ],
+    "demo": true
+  },
+  {
+    "id": "acc-01",
+    "name": "Accessories Collection 1",
+    "department": "Accessories",
+    "type": "Accessories",
+    "price": 10000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "Free Size"
+    ],
+    "description": "Beautiful Accessories crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 10,
+    "stock": 10,
+    "imageQuery": "Accessories",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/v1791438718/Accessories_18_-_Copy.jpg"
+    ],
+    "demo": true
+  },
+  {
+    "id": "acc-02",
+    "name": "Accessories Collection 2",
+    "department": "Accessories",
+    "type": "Accessories",
+    "price": 11000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "Free Size"
+    ],
+    "description": "Beautiful Accessories crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 11,
+    "stock": 10,
+    "imageQuery": "Accessories",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/v1791438718/Accessories_19_-_Copy.jpg"
+    ],
+    "demo": true
+  },
+  {
+    "id": "acc-03",
+    "name": "Accessories Collection 3",
+    "department": "Accessories",
+    "type": "Accessories",
+    "price": 12000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "Free Size"
+    ],
+    "description": "Beautiful Accessories crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 12,
+    "stock": 10,
+    "imageQuery": "Accessories",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/v1791438718/Accessories_20_-_Copy.jpg"
+    ],
+    "demo": true
+  },
+  {
+    "id": "acc-04",
+    "name": "Accessories Collection 4",
+    "department": "Accessories",
+    "type": "Accessories",
+    "price": 13000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "Free Size"
+    ],
+    "description": "Beautiful Accessories crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 13,
+    "stock": 10,
+    "imageQuery": "Accessories",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/v1791438719/Accessories_17_-_Copy.jpg"
+    ],
+    "demo": true
+  },
+  {
+    "id": "acc-05",
+    "name": "Accessories Collection 5",
+    "department": "Accessories",
+    "type": "Accessories",
+    "price": 14000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "Free Size"
+    ],
+    "description": "Beautiful Accessories crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 14,
+    "stock": 10,
+    "imageQuery": "Accessories",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/v1791438748/Accessories_7_-_Copy.jpg"
+    ],
+    "demo": true
+  },
+  {
+    "id": "acc-06",
+    "name": "Accessories Collection 6",
+    "department": "Accessories",
+    "type": "Accessories",
+    "price": 15000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "Free Size"
+    ],
+    "description": "Beautiful Accessories crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 15,
+    "stock": 10,
+    "imageQuery": "Accessories",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/v1791438748/Accessories_23_-_Copy.jpg"
+    ],
+    "demo": true
+  },
+  {
+    "id": "acc-07",
+    "name": "Accessories Collection 7",
+    "department": "Accessories",
+    "type": "Accessories",
+    "price": 16000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "Free Size"
+    ],
+    "description": "Beautiful Accessories crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 16,
+    "stock": 10,
+    "imageQuery": "Accessories",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/v1791438749/Accessories_4_-_Copy.jpg"
+    ],
+    "demo": true
+  },
+  {
+    "id": "acc-08",
+    "name": "Accessories Collection 8",
+    "department": "Accessories",
+    "type": "Accessories",
+    "price": 17000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "Free Size"
+    ],
+    "description": "Beautiful Accessories crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 17,
+    "stock": 10,
+    "imageQuery": "Accessories",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/v1791438749/Accessories_6_-_Copy.jpg"
+    ],
+    "demo": true
+  },
+  {
+    "id": "acc-09",
+    "name": "Accessories Collection 9",
+    "department": "Accessories",
+    "type": "Accessories",
+    "price": 18000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "Free Size"
+    ],
+    "description": "Beautiful Accessories crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 18,
+    "stock": 10,
+    "imageQuery": "Accessories",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/f_auto/q_auto/Accessories_9.jpg"
+    ],
+    "demo": true
+  },
+  {
+    "id": "acc-10",
+    "name": "Accessories Collection 10",
+    "department": "Accessories",
+    "type": "Accessories",
+    "price": 19000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "Free Size"
+    ],
+    "description": "Beautiful Accessories crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 19,
+    "stock": 10,
+    "imageQuery": "Accessories",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/f_auto/q_auto/Accessories_4.jpg"
+    ],
+    "demo": true
+  },
+  {
+    "id": "acc-11",
+    "name": "Accessories Collection 11",
+    "department": "Accessories",
+    "type": "Accessories",
+    "price": 20000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "Free Size"
+    ],
+    "description": "Beautiful Accessories crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 20,
+    "stock": 10,
+    "imageQuery": "Accessories",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/f_auto/q_auto/Accessories_5.jpg"
+    ],
+    "demo": true
+  },
+  {
+    "id": "acc-12",
+    "name": "Accessories Collection 12",
+    "department": "Accessories",
+    "type": "Accessories",
+    "price": 21000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "Free Size"
+    ],
+    "description": "Beautiful Accessories crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 21,
+    "stock": 10,
+    "imageQuery": "Accessories",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/f_auto/q_auto/Accessories_3.jpg"
+    ],
+    "demo": true
+  },
+  {
+    "id": "kur-01",
+    "name": "Kurta Collection 1",
+    "department": "Men",
+    "type": "Kurta",
+    "price": 10000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": "Beautiful Kurta crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 10,
+    "stock": 10,
+    "imageQuery": "Kurta",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/v1791437677/musterd.jpg"
+    ],
+    "demo": true
+  },
+  {
+    "id": "kur-02",
+    "name": "Kurta Collection 2",
+    "department": "Men",
+    "type": "Kurta",
+    "price": 11000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": "Beautiful Kurta crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 11,
+    "stock": 10,
+    "imageQuery": "Kurta",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/v1791437677/emerald_silk.jpg"
+    ],
+    "demo": true
+  },
+  {
+    "id": "kur-03",
+    "name": "Kurta Collection 3",
+    "department": "Men",
+    "type": "Kurta",
+    "price": 12000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": "Beautiful Kurta crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 12,
+    "stock": 10,
+    "imageQuery": "Kurta",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/v1791437677/dusty_rose.jpg"
+    ],
+    "demo": true
+  },
+  {
+    "id": "kur-04",
+    "name": "Kurta Collection 4",
+    "department": "Men",
+    "type": "Kurta",
+    "price": 13000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": "Beautiful Kurta crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 13,
+    "stock": 10,
+    "imageQuery": "Kurta",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/v1791437676/mens_blue_kurta.jpg"
+    ],
+    "demo": true
+  },
+  {
+    "id": "kur-05",
+    "name": "Kurta Collection 5",
+    "department": "Men",
+    "type": "Kurta",
+    "price": 14000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": "Beautiful Kurta crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 14,
+    "stock": 10,
+    "imageQuery": "Kurta",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/v1791437676/men_white_chikankari.jpg"
+    ],
+    "demo": true
+  },
+  {
+    "id": "kur-06",
+    "name": "Kurta Collection 6",
+    "department": "Men",
+    "type": "Kurta",
+    "price": 15000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": "Beautiful Kurta crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 15,
+    "stock": 10,
+    "imageQuery": "Kurta",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/v1791437676/white.jpg"
+    ],
+    "demo": true
+  },
+  {
+    "id": "kur-07",
+    "name": "Kurta Collection 7",
+    "department": "Men",
+    "type": "Kurta",
+    "price": 16000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": "Beautiful Kurta crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 16,
+    "stock": 10,
+    "imageQuery": "Kurta",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/v1791437676/men_rose_kurta.jpg"
+    ],
+    "demo": true
+  },
+  {
+    "id": "kur-08",
+    "name": "Kurta Collection 8",
+    "department": "Men",
+    "type": "Kurta",
+    "price": 17000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": "Beautiful Kurta crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 17,
+    "stock": 10,
+    "imageQuery": "Kurta",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/v1791437676/blue_kurta.jpg"
+    ],
+    "demo": true
+  },
+  {
+    "id": "kur-09",
+    "name": "Kurta Collection 9",
+    "department": "Men",
+    "type": "Kurta",
+    "price": 18000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": "Beautiful Kurta crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 18,
+    "stock": 10,
+    "imageQuery": "Kurta",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/v1791437676/musterd_kurta.jpg"
+    ],
+    "demo": true
+  },
+  {
+    "id": "kur-10",
+    "name": "Kurta Collection 10",
+    "department": "Men",
+    "type": "Kurta",
+    "price": 19000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": "Beautiful Kurta crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 19,
+    "stock": 10,
+    "imageQuery": "Kurta",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/f_auto/q_auto/k1"
+    ],
+    "demo": true
+  },
+  {
+    "id": "kur-11",
+    "name": "Kurta Collection 11",
+    "department": "Men",
+    "type": "Kurta",
+    "price": 20000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": "Beautiful Kurta crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 20,
+    "stock": 10,
+    "imageQuery": "Kurta",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/f_auto/q_auto/k2.jpg"
+    ],
+    "demo": true
+  },
+  {
+    "id": "kur-12",
+    "name": "Kurta Collection 12",
+    "department": "Men",
+    "type": "Kurta",
+    "price": 21000,
+    "tags": [
+      "new"
+    ],
+    "fabric": "Premium",
+    "work": "Handcrafted",
+    "colors": [
+      "Multicolor"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "description": "Beautiful Kurta crafted with care.",
+    "deliveryNote": "Ships in 1-2 weeks",
+    "rating": 4.8,
+    "reviews": 21,
+    "stock": 10,
+    "imageQuery": "Kurta",
+    "images": [
+      "https://res.cloudinary.com/snuwehqj/image/upload/f_auto/q_auto/k3.jpg"
+    ],
+    "demo": true
+  }
+]

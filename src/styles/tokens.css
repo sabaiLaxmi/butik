@@ -1,0 +1,42 @@
+:root {
+  /* Colors */
+  --color-ink: #3B1C1C; /* Deep Maroon */
+  --color-ivory: #FDF8F5; /* Soft Peach */
+  --color-gold: #C5A059;
+  --color-stone: #8A7272;
+  --color-white: #ffffff;
+  --color-border: #3B1C1C;
+  --color-discount: #7E4F4F;
+
+  /* Fonts */
+  --font-heading: 'Cormorant Garamond', serif;
+  --font-body: 'Jost', sans-serif;
+
+  /* Spacing Scale (8px base) */
+  --space-1: 0.5rem;   /* 8px */
+  --space-2: 1rem;     /* 16px */
+  --space-3: 1.5rem;   /* 24px */
+  --space-4: 2rem;     /* 32px */
+  --space-5: 2.5rem;   /* 40px */
+  --space-6: 3rem;     /* 48px */
+  --space-8: 4rem;     /* 64px */
+  --space-10: 5rem;    /* 80px */
+  --space-12: 6rem;    /* 96px */
+  --space-16: 8rem;    /* 128px */
+  --space-20: 10rem;   /* 160px */
+
+  /* Section Padding */
+  --section-py-desktop: var(--space-20);
+  --section-py-tablet: var(--space-16);
+  --section-py-mobile: var(--space-12);
+
+  /* Layout */
+  --max-width: 1440px;
+  --grid-gap: var(--space-3);
+
+  /* Easing */
+  --ease-primary: cubic-bezier(0.22, 1, 0.36, 1);
+  --duration-fast: 0.3s;
+  --duration-normal: 0.6s;
+  --duration-slow: 1.2s;
+}
