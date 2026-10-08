@@ -205,21 +205,44 @@ const Shop = () => {
               </div>
             </div>
           ) : (
-            <RevealGroup stagger={0.1}>
-              <Reveal mask>
-                <div style={{ textAlign: 'center', marginBottom: '8px' }}>
-                  <span className="text-label" style={{ color: 'var(--color-stone)' }}>{activeCategory !== 'All' ? activeCategory : 'Explore'}</span>
+            <div style={{
+              background: 'linear-gradient(135deg, rgba(139, 90, 43, 0.15) 0%, rgba(107, 15, 26, 0.1) 100%)',
+              backdropFilter: 'blur(20px)',
+              WebkitBackdropFilter: 'blur(20px)',
+              borderRadius: '32px',
+              border: '1px solid rgba(255, 255, 255, 0.5)',
+              boxShadow: '0 20px 40px rgba(0,0,0,0.05)',
+              padding: '80px 32px',
+              margin: '0 auto',
+              maxWidth: '1000px',
+              display: 'flex',
+              flexDirection: 'column',
+              alignItems: 'center',
+              justifyContent: 'center',
+              width: '100%'
+            }}>
+              <RevealGroup stagger={0.1}>
+                <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '100%' }}>
+                  <Reveal mask>
+                    <div style={{ textAlign: 'center', marginBottom: '16px', display: 'flex', justifyContent: 'center', width: '100%' }}>
+                      <span className="text-label" style={{ color: 'var(--color-ink)', letterSpacing: '0.15em', fontWeight: 600 }}>{activeCategory !== 'All' ? activeCategory : 'Explore'}</span>
+                    </div>
+                    <div style={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
+                      <h1 style={{ fontSize: 'clamp(3rem, 8vw, 6.5rem)', textAlign: 'center', marginBottom: 'var(--space-6)', textTransform: 'capitalize', color: 'var(--color-ink)' }}>
+                        {displayCategory}
+                      </h1>
+                    </div>
+                  </Reveal>
                 </div>
-                <h1 style={{ fontSize: 'clamp(3rem, 8vw, 8rem)', textAlign: 'center', marginBottom: 'var(--space-6)', textTransform: 'capitalize' }}>
-                  {displayCategory}
-                </h1>
-              </Reveal>
-              <Reveal delay={0.2}>
-                <p style={{ textAlign: 'center', maxWidth: '600px', margin: '0 auto', fontSize: '1.25rem' }}>
-                  Discover our meticulously curated selection of timeless pieces, designed for intentional living.
-                </p>
-              </Reveal>
-            </RevealGroup>
+                <div style={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
+                  <Reveal delay={0.2}>
+                    <p style={{ textAlign: 'center', maxWidth: '600px', margin: '0 auto', fontSize: '1.25rem', color: 'var(--color-ink)', opacity: 0.85 }}>
+                      Discover our meticulously curated selection of timeless pieces, designed for intentional living.
+                    </p>
+                  </Reveal>
+                </div>
+              </RevealGroup>
+            </div>
           )}
         </div>
       </section>

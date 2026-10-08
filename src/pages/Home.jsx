@@ -9,6 +9,8 @@ import { formatPrice } from '../utils/formatPrice';
 
 import BounceCards from '../components/ui/BounceCards';
 
+import AnimatedHero from '../components/ui/AnimatedHero';
+
 const Home = () => {
   const { addToCart } = useCart();
   const [bounceWidth, setBounceWidth] = useState(500);
@@ -64,21 +66,8 @@ const Home = () => {
         }
       `}} />
 
-      {/* Hero Carousel Section */}
-      <section style={{ position: 'relative', width: '100%', height: '80vh', overflow: 'hidden' }}>
-        <img 
-          src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?q=80&w=2000&auto=format&fit=crop" 
-          alt="Hero Fashion" 
-          style={{ width: '100%', height: '100%', objectFit: 'cover' }} 
-        />
-        <div style={{ position: 'absolute', inset: 0, backgroundColor: 'rgba(0,0,0,0.3)', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', color: '#fff', textAlign: 'center', padding: '0 16px' }}>
-          <h1 className="hero-title" style={{ fontFamily: 'var(--font-heading)', margin: 0, fontWeight: 500, lineHeight: 1.1 }}>FESTIVE COLLECTION</h1>
-          <p style={{ fontSize: 'clamp(1rem, 4vw, 1.25rem)', marginTop: '16px', marginBottom: '32px' }}>Royal Vibes, Endless Style</p>
-          <Link to="/shop" style={{ backgroundColor: '#fff', color: 'var(--color-ink)', padding: '16px 32px', textDecoration: 'none', fontWeight: 500, letterSpacing: '0.05em' }}>
-            SHOP NOW
-          </Link>
-        </div>
-      </section>
+      {/* Hero Carousel Section replaced with AnimatedHero */}
+      <AnimatedHero />
 
       {/* BounceCards Interactive Showcase */}
       <section style={{ padding: '80px 16px', backgroundColor: 'var(--color-ivory)', display: 'flex', flexDirection: 'column', alignItems: 'center', overflow: 'hidden' }}>
