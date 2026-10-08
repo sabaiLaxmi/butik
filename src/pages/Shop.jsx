@@ -69,7 +69,7 @@ const Shop = () => {
   const displayCategory = activeCategory === 'All' ? 'The Collection' : (navFilters[activeCategory] ? activeCategory + 's' : activeCategory);
 
   useEffect(() => {
-    document.title = `${displayCategory} | A%LAN`;
+    document.title = `${displayCategory} | VASTRIKA`;
   }, [displayCategory]);
 
   const [searchQuery, setSearchQuery] = useState('');

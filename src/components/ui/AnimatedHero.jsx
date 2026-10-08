@@ -182,7 +182,7 @@ const AnimatedHero = () => {
     >
       {/* Top Navigation */}
       <nav className="hero-nav">
-        <div className="hero-logo">ÉLAN</div>
+        <div className="hero-logo">VASTRIKA</div>
         
         <div className="glass-menu">
           <Link to="/shop?category=Lehenga">Festive Collection</Link>

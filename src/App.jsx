@@ -1,7 +1,8 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 
+import Preloader from './components/ui/Preloader';
 import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
 import ScrollToTop from './components/layout/ScrollToTop';
@@ -31,31 +32,36 @@ import ReturnExchange from './pages/ReturnExchange';
 
 function App() {
   const location = useLocation();
+  const [showPreloader, setShowPreloader] = useState(true);
 
   useEffect(() => {
+    // Only show preloader on first home page load, or always on mount.
+    // If we only want it on mount, the current state handles it.
+    
     const titles = {
-      '/': 'ÉLAN | Elegance, With Intention.',
-      '/shop': 'Shop | ÉLAN',
-      '/cart': 'Your Bag | ÉLAN',
-      '/checkout': 'Checkout | ÉLAN',
-      '/login': 'Sign In | ÉLAN',
-      '/signup': 'Create Account | ÉLAN',
-      '/profile': 'Profile | ÉLAN',
-      '/about': 'About | ÉLAN',
-      '/journal': 'Journal | ÉLAN',
-      '/confirmation': 'Thank You | ÉLAN'
+      '/': 'VASTRIKA | Elegance, With Intention.',
+      '/shop': 'Shop | VASTRIKA',
+      '/cart': 'Your Bag | VASTRIKA',
+      '/checkout': 'Checkout | VASTRIKA',
+      '/login': 'Sign In | VASTRIKA',
+      '/signup': 'Create Account | VASTRIKA',
+      '/profile': 'Profile | VASTRIKA',
+      '/about': 'About | VASTRIKA',
+      '/journal': 'Journal | VASTRIKA',
+      '/confirmation': 'Thank You | VASTRIKA'
     };
     
     // For dynamic routes like /shop/:id, we just set a fallback
     if (location.pathname.startsWith('/shop/') && location.pathname.length > 6) {
-      document.title = 'Product | ÉLAN';
+      document.title = 'Product | VASTRIKA';
     } else {
-      document.title = titles[location.pathname] || 'ÉLAN';
+      document.title = titles[location.pathname] || 'VASTRIKA';
     }
   }, [location]);
 
   return (
     <>
+      {showPreloader && <Preloader onComplete={() => setShowPreloader(false)} />}
       <ScrollToTop />
       <Navbar />
       <CartDrawer />
