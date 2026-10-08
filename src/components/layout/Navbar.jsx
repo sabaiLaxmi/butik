@@ -31,18 +31,6 @@ const Navbar = () => {
 
   return (
     <>
-      {/* 1. Top Utility / Announcement Bar */}
-      <div style={{ backgroundColor: 'var(--color-ivory)', borderBottom: '1px solid rgba(0,0,0,0.05)', padding: '6px 24px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', fontSize: '12px' }}>
-        <div style={{ display: 'flex', gap: '12px', color: 'var(--color-stone)', fontWeight: 500 }}>
-          <span>FB</span>
-          <span>IG</span>
-          <span>YT</span>
-        </div>
-        <div style={{ fontWeight: 500, letterSpacing: '0.05em' }}>
-          GRAND FESTIVE SALE | UPTO 60% OFF ON ETHNIC WEAR
-        </div>
-        <div style={{ width: '100px' }}>{/* Spacer for center alignment */}</div>
-      </div>
 
       {/* 2. Main Header Bar (Sticky) */}
       <header style={{ 
