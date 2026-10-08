@@ -72,7 +72,15 @@ const Shop = () => {
     document.title = `${displayCategory} | VASTRIKA`;
   }, [displayCategory]);
 
-  const [searchQuery, setSearchQuery] = useState('');
+  const initialSearch = searchParams.get('search') || '';
+  const [searchQuery, setSearchQuery] = useState(initialSearch);
+
+  useEffect(() => {
+    const urlSearch = searchParams.get('search');
+    if (urlSearch !== null) {
+      setSearchQuery(urlSearch);
+    }
+  }, [searchParams]);
   const [sortType, setSortType] = useState('newest'); // newest, price-low, price-high
   const [priceRange, setPriceRange] = useState(100000); // Max price
 

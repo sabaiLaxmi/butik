@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { Search, User, ShoppingBag, Heart } from 'lucide-react';
 import { useCart } from '../../context/CartContext';
 import { useAuth } from '../../context/AuthContext';
@@ -7,8 +7,18 @@ import Logo from '../ui/Logo';
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
+  const [searchQuery, setSearchQuery] = useState('');
   const { pathname } = useLocation();
+  const navigate = useNavigate();
   const { openCart, itemCount } = useCart();
+
+  const handleSearch = (e) => {
+    e.preventDefault();
+    if (searchQuery.trim()) {
+      navigate(`/shop?search=${encodeURIComponent(searchQuery.trim())}`);
+      setSearchQuery('');
+    }
+  };
   const { user } = useAuth();
 
   useEffect(() => {
@@ -47,10 +57,18 @@ const Navbar = () => {
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '16px 32px' }}>
           
           {/* Left: Search */}
-          <div style={{ flex: 1, display: 'flex', alignItems: 'center', gap: '8px', color: 'var(--color-stone)' }}>
-            <Search size={20} strokeWidth={1.5} />
-            <span style={{ fontSize: '13px', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Search</span>
-          </div>
+          <form onSubmit={handleSearch} style={{ flex: 1, display: 'flex', alignItems: 'center', gap: '8px', color: 'var(--color-stone)' }}>
+            <button type="submit" style={{ background: 'none', border: 'none', cursor: 'pointer', padding: 0, color: 'var(--color-stone)', display: 'flex' }}>
+              <Search size={20} strokeWidth={1.5} />
+            </button>
+            <input 
+              type="text"
+              placeholder="SEARCH"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              style={{ border: 'none', background: 'transparent', outline: 'none', fontSize: '13px', textTransform: 'uppercase', letterSpacing: '0.05em', color: 'var(--color-ink)', width: '150px' }}
+            />
+          </form>
 
           {/* Center: Logo */}
           <div style={{ flex: 1, display: 'flex', justifyContent: 'center' }}>
