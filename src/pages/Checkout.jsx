@@ -305,8 +305,8 @@ const Checkout = () => {
                 <span style={{ fontSize: '1.25rem', fontWeight: 500 }}>{formatPrice(total)}</span>
               </div>
             </div>
+            </div>
           </div>
-
         </div>
       </section>
     </PageTransition>
