@@ -101,8 +101,7 @@ const AnimatedHero = () => {
     });
   }, []);
 
-  // Removed auto-play based on user request. Navigation is now strictly manual.
-  /*
+  // Auto-play functionality
   useEffect(() => {
     if (isHovered) return;
     const timer = setInterval(() => {
@@ -110,7 +109,6 @@ const AnimatedHero = () => {
     }, 5000);
     return () => clearInterval(timer);
   }, [isHovered, paginate]);
-  */
 
   // Framer motion variants
   const variants = {
