@@ -159,57 +159,64 @@ const Shop = () => {
         <div className="container">
           {activeVideo ? (
             <div style={{
-              display: 'grid',
-              gridTemplateColumns: '1fr',
-              gap: '32px',
+              position: 'relative',
+              width: '100%',
+              minHeight: '500px',
+              borderRadius: '24px',
+              overflow: 'hidden',
+              display: 'flex',
               alignItems: 'center',
-              backgroundColor: 'transparent'
+              justifyContent: 'center',
+              boxShadow: '0 20px 40px rgba(0,0,0,0.1)'
             }}>
-              <style dangerouslySetInnerHTML={{__html: `
-                @media (min-width: 900px) {
-                  .video-header-grid {
-                    grid-template-columns: 1fr 1fr !important;
-                  }
-                }
-              `}} />
-              <div className="video-header-grid" style={{ display: 'grid', gridTemplateColumns: '1fr', width: '100%' }}>
-                {/* Left Side: Text */}
-                <div style={{ padding: '0 48px', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
-                  <RevealGroup stagger={0.1}>
-                    <Reveal mask>
-                      <div style={{ marginBottom: '8px' }}>
-                        <span className="text-label" style={{ color: 'var(--color-stone)' }}>{activeCategory}</span>
-                      </div>
-                      <h1 style={{ fontSize: 'clamp(2.5rem, 5vw, 5rem)', marginBottom: 'var(--space-4)', textTransform: 'capitalize', lineHeight: 1.1 }}>
-                        {displayCategory}
-                      </h1>
-                    </Reveal>
-                    <Reveal delay={0.2}>
-                      <p style={{ fontSize: '1.125rem', color: 'var(--color-stone)', maxWidth: '400px', lineHeight: 1.6 }}>
-                        Discover our meticulously curated selection of timeless pieces, designed for intentional living.
-                      </p>
-                    </Reveal>
-                  </RevealGroup>
-                </div>
-                
-                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', backgroundColor: 'transparent' }}>
-                  <video 
-                    src={activeVideo}
-                    autoPlay 
-                    loop 
-                    muted 
-                    playsInline
-                    style={{
-                      width: '100%',
-                      height: 'auto',
-                      maxHeight: '600px',
-                      objectFit: 'contain',
-                      display: 'block',
-                      mixBlendMode: 'multiply',
-                      opacity: 0.9
-                    }}
-                  />
-                </div>
+              {/* Background Video */}
+              <video 
+                src={activeVideo}
+                autoPlay 
+                loop 
+                muted 
+                playsInline
+                style={{
+                  position: 'absolute',
+                  top: 0,
+                  left: 0,
+                  width: '100%',
+                  height: '100%',
+                  objectFit: 'cover',
+                  zIndex: 0
+                }}
+              />
+              {/* Overlay for better text readability */}
+              <div style={{
+                position: 'absolute',
+                inset: 0,
+                backgroundColor: 'rgba(0, 0, 0, 0.4)',
+                zIndex: 1
+              }} />
+
+              {/* Text Content */}
+              <div style={{ 
+                position: 'relative', 
+                zIndex: 2, 
+                textAlign: 'center', 
+                padding: '40px',
+                color: 'var(--color-white)' 
+              }}>
+                <RevealGroup stagger={0.1}>
+                  <Reveal mask>
+                    <div style={{ marginBottom: '16px' }}>
+                      <span className="text-label" style={{ color: 'rgba(255,255,255,0.8)', letterSpacing: '0.15em', fontWeight: 600 }}>{activeCategory}</span>
+                    </div>
+                    <h1 style={{ fontSize: 'clamp(3rem, 8vw, 6rem)', marginBottom: 'var(--space-6)', textTransform: 'capitalize', color: 'var(--color-white)' }}>
+                      {displayCategory}
+                    </h1>
+                  </Reveal>
+                  <Reveal delay={0.2}>
+                    <p style={{ fontSize: '1.25rem', color: 'rgba(255,255,255,0.9)', maxWidth: '600px', margin: '0 auto', lineHeight: 1.6 }}>
+                      Discover our meticulously curated selection of timeless pieces, designed for intentional living.
+                    </p>
+                  </Reveal>
+                </RevealGroup>
               </div>
             </div>
           ) : (
