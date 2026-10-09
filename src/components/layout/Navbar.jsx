@@ -76,15 +76,15 @@ const Navbar = () => {
       }}>
         <div className="navbar-main-header" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           
-          {/* Left: Empty (for balancing center) */}
-          <div style={{ flex: 1 }}></div>
-
-          {/* Center: Logo */}
-          <div style={{ flex: 1, display: 'flex', justifyContent: 'center' }}>
+          {/* Left: Logo */}
+          <div style={{ flex: 1, display: 'flex', justifyContent: 'flex-start' }}>
             <Link to="/" style={{ textDecoration: 'none', color: 'var(--color-ink)' }}>
               <Logo />
             </Link>
           </div>
+
+          {/* Center: Empty */}
+          <div style={{ flex: 1 }}></div>
 
           {/* Right: Actions */}
           <div className="nav-actions" style={{ flex: 1, display: 'flex', justifyContent: 'flex-end', alignItems: 'center' }}>
