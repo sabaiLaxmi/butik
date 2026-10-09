@@ -26,7 +26,7 @@
     "stock": 10,
     "imageQuery": "Lehenga",
     "images": [
-      "https://res.cloudinary.com/snuwehqj/image/upload/v1791351633/lehnga_1.png"
+      "https://res.cloudinary.com/snuwehqj/image/upload/f_auto/q_auto/l1.png"
     ],
     "demo": true
   },
@@ -398,7 +398,7 @@
     "stock": 10,
     "imageQuery": "Sherwani",
     "images": [
-      "https://res.cloudinary.com/snuwehqj/image/upload/v1791436016/sherwani_11.jpg"
+      "https://res.cloudinary.com/snuwehqj/image/upload/f_auto/q_auto/l2.jpg"
     ],
     "demo": true
   },
@@ -770,7 +770,7 @@
     "stock": 10,
     "imageQuery": "Saree",
     "images": [
-      "https://res.cloudinary.com/snuwehqj/image/upload/v1791438163/saree_1.jpg"
+      "https://res.cloudinary.com/snuwehqj/image/upload/f_auto/q_auto/sarees1.png"
     ],
     "demo": true
   },
@@ -1139,7 +1139,7 @@
     "stock": 10,
     "imageQuery": "Accessories",
     "images": [
-      "https://res.cloudinary.com/snuwehqj/image/upload/v1791438718/Accessories_18_-_Copy.jpg"
+      "https://images.unsplash.com/photo-1599643478524-fb66f70d00f8?w=800&q=80"
     ],
     "demo": true
   },
@@ -1478,7 +1478,7 @@
     "stock": 10,
     "imageQuery": "Kurta",
     "images": [
-      "https://res.cloudinary.com/snuwehqj/image/upload/v1791437677/musterd.jpg"
+      "https://res.cloudinary.com/snuwehqj/image/upload/f_auto/q_auto/l3.jpg"
     ],
     "demo": true
   },
