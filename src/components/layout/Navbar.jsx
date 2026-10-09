@@ -76,20 +76,8 @@ const Navbar = () => {
       }}>
         <div className="navbar-main-header" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           
-          {/* Left: Search */}
-          <form onSubmit={handleSearch} style={{ flex: 1, display: 'flex', alignItems: 'center', gap: '8px', color: 'var(--color-stone)' }}>
-            <button type="submit" style={{ background: 'none', border: 'none', cursor: 'pointer', padding: 0, color: 'var(--color-stone)', display: 'flex' }}>
-              <Search size={20} strokeWidth={1.5} />
-            </button>
-            <input 
-              className="nav-search-input"
-              type="text"
-              placeholder="SEARCH"
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-              style={{ border: 'none', background: 'transparent', outline: 'none', fontSize: '13px', textTransform: 'uppercase', letterSpacing: '0.05em', color: 'var(--color-ink)' }}
-            />
-          </form>
+          {/* Left: Empty (for balancing center) */}
+          <div style={{ flex: 1 }}></div>
 
           {/* Center: Logo */}
           <div style={{ flex: 1, display: 'flex', justifyContent: 'center' }}>
@@ -100,14 +88,28 @@ const Navbar = () => {
 
           {/* Right: Actions */}
           <div className="nav-actions" style={{ flex: 1, display: 'flex', justifyContent: 'flex-end', alignItems: 'center' }}>
+            <form onSubmit={handleSearch} style={{ display: 'flex', alignItems: 'center', gap: '4px', borderBottom: '1px solid var(--color-stone)', paddingBottom: '2px', marginRight: '16px' }}>
+              <button type="submit" style={{ background: 'none', border: 'none', cursor: 'pointer', padding: 0, color: 'var(--color-ink)', display: 'flex' }}>
+                <Search size={18} strokeWidth={1.5} />
+              </button>
+              <input 
+                className="nav-search-input"
+                type="text"
+                placeholder="SEARCH"
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                style={{ border: 'none', background: 'transparent', outline: 'none', fontSize: '12px', textTransform: 'uppercase', letterSpacing: '0.05em', color: 'var(--color-ink)' }}
+              />
+            </form>
+
             <button style={{ background: 'none', border: 'none', cursor: 'pointer', color: 'var(--color-ink)' }}>
-              <Heart size={22} strokeWidth={1.5} />
+              <Heart size={20} strokeWidth={1.5} />
             </button>
             <Link to={user ? "/profile" : "/login"} style={{ color: 'var(--color-ink)' }}>
-              <User size={22} strokeWidth={1.5} />
+              <User size={20} strokeWidth={1.5} />
             </Link>
             <button onClick={openCart} style={{ background: 'none', border: 'none', cursor: 'pointer', color: 'var(--color-ink)', position: 'relative' }}>
-              <ShoppingBag size={22} strokeWidth={1.5} />
+              <ShoppingBag size={20} strokeWidth={1.5} />
               {itemCount > 0 && (
                 <span style={{ position: 'absolute', top: '-6px', right: '-8px', backgroundColor: 'var(--color-ink)', color: 'var(--color-white)', fontSize: '10px', width: '16px', height: '16px', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                   {itemCount}
