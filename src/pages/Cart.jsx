@@ -13,15 +13,67 @@ const Cart = () => {
 
   return (
     <PageTransition>
+      <style dangerouslySetInnerHTML={{__html: `
+        .cart-layout {
+          display: flex;
+          flex-direction: column;
+          gap: 2rem;
+          width: 100%;
+        }
+        @media (min-width: 900px) {
+          .cart-layout {
+            flex-direction: row;
+            align-items: flex-start;
+          }
+          .cart-items {
+            flex: 1;
+            width: 100%;
+          }
+          .cart-summary {
+            width: 350px;
+            flex-shrink: 0;
+            position: sticky;
+            top: 120px;
+          }
+        }
+        .cart-item-header {
+          display: none;
+        }
+        @media (min-width: 600px) {
+          .cart-item-header {
+            display: grid;
+            grid-template-columns: 3fr 1fr 1fr;
+            padding-bottom: var(--space-3);
+            border-bottom: 1px solid var(--color-ink);
+          }
+        }
+        .cart-item-row {
+          display: flex;
+          flex-direction: column;
+          gap: 1rem;
+          padding: var(--space-4) 0;
+          border-bottom: 1px solid var(--color-stone);
+        }
+        @media (min-width: 600px) {
+          .cart-item-row {
+            display: grid;
+            grid-template-columns: 3fr 1fr 1fr;
+            align-items: center;
+          }
+          .cart-item-total {
+            text-align: right;
+          }
+        }
+      `}} />
       <section style={{ paddingTop: 'var(--space-20)', paddingBottom: 'var(--space-12)', minHeight: '80vh' }}>
-        <div className="container grid-12" style={{ alignItems: 'flex-start' }}>
+        <div className="container">
           
-          <div style={{ gridColumn: 'span 12', marginBottom: 'var(--space-8)' }}>
-            <Reveal mask><h1 style={{ fontSize: 'clamp(3rem, 5vw, 5rem)' }}>Your Bag</h1></Reveal>
+          <div style={{ marginBottom: 'var(--space-8)' }}>
+            <Reveal mask><h1 style={{ fontSize: 'clamp(2.5rem, 5vw, 5rem)' }}>Your Bag</h1></Reveal>
           </div>
 
           {cartItems.length === 0 ? (
-            <div style={{ gridColumn: 'span 12', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: 'var(--space-12) 0', borderTop: '1px solid var(--color-ink)' }}>
+            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: 'var(--space-12) 0', borderTop: '1px solid var(--color-ink)' }}>
               <RevealGroup stagger={0.1}>
                 <Reveal mask><h3 style={{ marginBottom: 'var(--space-3)', fontWeight: 400 }}>Your bag is quietly empty.</h3></Reveal>
                 <Reveal delay={0.2}><p style={{ marginBottom: 'var(--space-6)', color: 'var(--color-stone)' }}>Begin assembling your perfect wardrobe.</p></Reveal>
@@ -33,11 +85,11 @@ const Cart = () => {
               </RevealGroup>
             </div>
           ) : (
-            <>
+            <div className="cart-layout">
               {/* Items List */}
-              <div style={{ gridColumn: 'span 8', display: 'flex', flexDirection: 'column' }}>
+              <div className="cart-items">
                 {/* Header Row */}
-                <div style={{ display: 'grid', gridTemplateColumns: '3fr 1fr 1fr', paddingBottom: 'var(--space-3)', borderBottom: '1px solid var(--color-ink)' }}>
+                <div className="cart-item-header">
                   <span className="text-label" style={{ color: 'var(--color-stone)' }}>Item</span>
                   <span className="text-label" style={{ color: 'var(--color-stone)', textAlign: 'center' }}>Quantity</span>
                   <span className="text-label" style={{ color: 'var(--color-stone)', textAlign: 'right' }}>Total</span>
@@ -52,7 +104,7 @@ const Cart = () => {
                       animate={{ opacity: 1, y: 0 }}
                       exit={{ opacity: 0, x: -20 }}
                       transition={{ duration: 0.4 }}
-                      style={{ display: 'grid', gridTemplateColumns: '3fr 1fr 1fr', padding: 'var(--space-4) 0', borderBottom: '1px solid var(--color-stone)', alignItems: 'center' }}
+                      className="cart-item-row"
                     >
                       {/* Product Detail */}
                       <div style={{ display: 'flex', gap: 'var(--space-4)' }}>
@@ -70,7 +122,7 @@ const Cart = () => {
                       </div>
 
                       {/* Quantity */}
-                      <div style={{ display: 'flex', justifyContent: 'center' }}>
+                      <div style={{ display: 'flex', justifyContent: 'flex-start' }} className="qty-wrapper">
                         <div style={{ display: 'flex', alignItems: 'center', border: '1px solid var(--color-ink)', height: 'fit-content' }}>
                           <button onClick={() => updateQuantity(idx, -1)} style={{ padding: '8px 12px', border: 'none', background: 'none', cursor: 'pointer' }}><Minus size={14} /></button>
                           <span style={{ fontFamily: 'var(--font-body)', width: '30px', textAlign: 'center', fontSize: '14px' }}>{item.quantity}</span>
@@ -79,7 +131,7 @@ const Cart = () => {
                       </div>
 
                       {/* Total */}
-                      <div style={{ textAlign: 'right' }}>
+                      <div className="cart-item-total">
                         <span style={{ fontSize: '1.125rem' }}>${(item.price * item.quantity).toFixed(2)}</span>
                       </div>
                     </motion.div>
@@ -88,7 +140,7 @@ const Cart = () => {
               </div>
 
               {/* Order Summary */}
-              <div style={{ gridColumn: '10 / span 3', position: 'sticky', top: '120px', backgroundColor: 'var(--color-white)', padding: 'var(--space-6)', border: '1px solid var(--color-ink)' }}>
+              <div className="cart-summary" style={{ backgroundColor: 'var(--color-white)', padding: 'var(--space-6)', border: '1px solid var(--color-ink)' }}>
                 <h3 style={{ marginBottom: 'var(--space-6)', fontSize: '1.5rem', fontWeight: 400 }}>Summary</h3>
                 
                 <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 'var(--space-3)' }}>
@@ -114,7 +166,7 @@ const Cart = () => {
                   Secure encrypted checkout.<br/> Complimentary returns within 14 days.
                 </p>
               </div>
-            </>
+            </div>
           )}
 
         </div>

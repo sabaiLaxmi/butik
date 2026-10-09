@@ -14,6 +14,19 @@ import AnimatedHero from '../components/ui/AnimatedHero';
 const Home = () => {
   const { addToCart } = useCart();
   const [bounceWidth, setBounceWidth] = useState(500);
+  const [faqSearch, setFaqSearch] = useState('');
+  const [openFaq, setOpenFaq] = useState(null);
+
+  const faqs = [
+    { q: 'Do you offer custom tailoring for Lehengas?', a: 'Yes, we offer custom tailoring services for all Lehengas to ensure the perfect fit.' },
+    { q: 'How long does shipping take for bridal wear?', a: 'Bridal wear typically takes 3-4 weeks for standard shipping. Expedited shipping is available upon request.' },
+    { q: 'What is the return policy on Sherwanis?', a: 'We offer a 15-day return policy for unused Sherwanis in their original condition and packaging.' },
+    { q: 'How should I care for my silk sarees?', a: 'Silk sarees should be dry cleaned only to maintain their texture and color. Store them folded in a cool, dry place away from direct sunlight.' }
+  ];
+
+  const filteredFaqs = faqs.filter(faq => faq.q.toLowerCase().includes(faqSearch.toLowerCase()));
+
+
 
   useEffect(() => {
     const handleResize = () => {
@@ -194,13 +207,38 @@ const Home = () => {
         <div style={{ maxWidth: '800px', margin: '0 auto' }}>
           <h2 style={{ fontSize: 'clamp(1.5rem, 4vw, 2rem)', textAlign: 'center', marginBottom: '32px', fontFamily: 'var(--font-heading)' }}>Frequently Asked Questions About Ethnic Wear</h2>
           <div style={{ display: 'flex', borderBottom: '1px solid rgba(0,0,0,0.1)', paddingBottom: '16px', marginBottom: '24px' }}>
-            <input type="text" placeholder="Search FAQ" style={{ flex: 1, border: 'none', background: 'transparent', outline: 'none', fontSize: '1rem' }} />
+            <input 
+              type="text" 
+              placeholder="Search FAQ" 
+              value={faqSearch}
+              onChange={(e) => setFaqSearch(e.target.value)}
+              style={{ flex: 1, border: 'none', background: 'transparent', outline: 'none', fontSize: '1rem' }} 
+            />
           </div>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
-            {['Do you offer custom tailoring for Lehengas?', 'How long does shipping take for bridal wear?', 'What is the return policy on Sherwanis?', 'How should I care for my silk sarees?'].map((q, i) => (
-              <div key={i} style={{ display: 'flex', justifyContent: 'space-between', padding: '16px', backgroundColor: '#fff', border: '1px solid rgba(0,0,0,0.05)', cursor: 'pointer' }}>
-                <span style={{ fontWeight: 500, fontSize: 'clamp(0.9rem, 2vw, 1rem)' }}>{q}</span>
-                <span>+</span>
+            {filteredFaqs.map((faq, i) => (
+              <div key={i} style={{ display: 'flex', flexDirection: 'column', backgroundColor: '#fff', border: '1px solid rgba(0,0,0,0.05)' }}>
+                <div 
+                  onClick={() => setOpenFaq(openFaq === i ? null : i)}
+                  style={{ display: 'flex', justifyContent: 'space-between', padding: '16px', cursor: 'pointer' }}
+                >
+                  <span style={{ fontWeight: 500, fontSize: 'clamp(0.9rem, 2vw, 1rem)' }}>{faq.q}</span>
+                  <span>{openFaq === i ? '-' : '+'}</span>
+                </div>
+                <AnimatePresence>
+                  {openFaq === i && (
+                    <motion.div
+                      initial={{ height: 0, opacity: 0 }}
+                      animate={{ height: 'auto', opacity: 1 }}
+                      exit={{ height: 0, opacity: 0 }}
+                      style={{ overflow: 'hidden' }}
+                    >
+                      <div style={{ padding: '0 16px 16px 16px', color: 'var(--color-stone)', fontSize: '0.95rem', lineHeight: 1.5 }}>
+                        {faq.a}
+                      </div>
+                    </motion.div>
+                  )}
+                </AnimatePresence>
               </div>
             ))}
           </div>

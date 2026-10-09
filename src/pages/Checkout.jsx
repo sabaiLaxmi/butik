@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { useNavigate, Navigate, Link } from 'react-router-dom';
+import { useNavigate, Navigate, Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { CheckCircle, ArrowRight } from 'lucide-react';
 import PageTransition from '../components/layout/PageTransition';
@@ -14,8 +14,12 @@ const Checkout = () => {
   const { user, addOrder } = useAuth();
   const { cartItems, subtotal, clearCart } = useCart();
   const navigate = useNavigate();
+  const location = useLocation();
+  const instantItem = location.state?.instantItem;
 
-  // If not logged in, force login to checkout
+  const checkoutItems = instantItem ? [instantItem] : cartItems;
+  const checkoutSubtotal = instantItem ? (instantItem.price * instantItem.quantity) : subtotal;
+
   const [formData, setFormData] = useState({
     name: user?.name || '',
     email: user?.email || '',
@@ -28,16 +32,12 @@ const Checkout = () => {
   const [delivery, setDelivery] = useState('Standard');
   const [errors, setErrors] = useState({});
 
-  if (!user) {
-    return <Navigate to="/login" state={{ from: { pathname: '/checkout' } }} replace />;
-  }
-
-  if (cartItems.length === 0) {
+  if (checkoutItems.length === 0) {
     return <Navigate to="/cart" replace />;
   }
 
-  const shippingCost = subtotal >= 5000 ? 0 : 150;
-  const total = subtotal + shippingCost;
+  const shippingCost = checkoutSubtotal >= 5000 ? 0 : 150;
+  const total = checkoutSubtotal + shippingCost;
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -69,18 +69,23 @@ const Checkout = () => {
       const newOrder = {
         id: orderNumber,
         date: new Date().toISOString(),
-        items: [...cartItems],
+        items: [...checkoutItems],
         shippingDetails: formData,
         deliveryMethod: delivery,
         paymentMethod: 'Cash on delivery',
-        subtotal,
+        subtotal: checkoutSubtotal,
         shippingCost,
         total,
         status: 'Processing'
       };
 
-      addOrder(newOrder);
-      clearCart();
+      if (user && addOrder) {
+        addOrder(newOrder);
+      }
+      
+      if (!instantItem) {
+        clearCart();
+      }
       
       // Show success toast
       setToast({ type: 'success', message: 'Your order is placed successfully!' });
@@ -231,7 +236,7 @@ const Checkout = () => {
             <h3 style={{ fontSize: '1.5rem', marginBottom: 'var(--space-6)', borderBottom: '1px solid var(--color-ink)', paddingBottom: '8px' }}>Order Summary</h3>
             
             <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-4)', marginBottom: 'var(--space-6)', maxHeight: '40vh', overflowY: 'auto' }}>
-              {cartItems.map((item, idx) => (
+              {checkoutItems.map((item, idx) => (
                 <div key={idx} style={{ display: 'flex', gap: 'var(--space-3)' }}>
                   <div style={{ width: '64px', height: '85px', flexShrink: 0, border: '1px solid var(--color-ink)' }}>
                     <img src={item?.images?.[0] || item?.image} alt={item.name} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
@@ -251,7 +256,7 @@ const Checkout = () => {
             <div style={{ borderTop: '1px solid var(--color-stone)', paddingTop: 'var(--space-4)' }}>
               <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 'var(--space-2)' }}>
                 <span className="text-label" style={{ color: 'var(--color-stone)' }}>Subtotal</span>
-                <span className="text-label">{formatPrice(subtotal)}</span>
+                <span className="text-label">{formatPrice(checkoutSubtotal)}</span>
               </div>
               <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 'var(--space-4)' }}>
                 <span className="text-label" style={{ color: 'var(--color-stone)' }}>Shipping</span>

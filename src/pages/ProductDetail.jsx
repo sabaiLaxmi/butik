@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Plus, Minus, ChevronDown, ChevronUp } from 'lucide-react';
 import PageTransition from '../components/layout/PageTransition';
@@ -58,27 +58,10 @@ const ProductDetail = () => {
 
   const gallery = product.images;
 
+  const navigate = useNavigate();
+
   const handleInstantBuy = () => {
-    const orderNumber = `ELN-${new Date().getFullYear()}-${Math.floor(1000 + Math.random() * 9000)}`;
-    const newOrder = {
-      id: orderNumber,
-      date: new Date().toISOString(),
-      items: [{ ...product, quantity, size: selectedSize, color: selectedColor }],
-      shippingDetails: { 
-        name: user?.name || 'Guest', 
-        address: user?.address || 'Your Shipping Address',
-        city: 'Your City',
-        state: 'Your State',
-        pincode: '000000'
-      },
-      total: product.price * quantity,
-      status: 'Processing'
-    };
-    if (user && addOrder) {
-      addOrder(newOrder);
-    }
-    setPlacedOrder(newOrder);
-    setShowPopup(true);
+    navigate('/checkout', { state: { instantItem: { ...product, quantity, size: selectedSize, color: selectedColor } } });
   };
 
   return (
