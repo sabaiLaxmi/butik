@@ -1,7 +1,7 @@
 [
   {
     "id": "leh-01",
-    "name": "Lehenga Collection 1",
+    "name": "Dusty Rose Shimmer Mermaid Lehenga",
     "department": "Women",
     "type": "Lehenga",
     "price": 10000,
@@ -32,7 +32,7 @@
   },
   {
     "id": "leh-02",
-    "name": "Lehenga Collection 2",
+    "name": "Black Embellished Mermaid Lehenga with Cape",
     "department": "Women",
     "type": "Lehenga",
     "price": 11000,
@@ -63,7 +63,7 @@
   },
   {
     "id": "leh-03",
-    "name": "Lehenga Collection 3",
+    "name": "Navy Blue Mermaid Lehenga with Cape",
     "department": "Women",
     "type": "Lehenga",
     "price": 12000,
@@ -94,7 +94,7 @@
   },
   {
     "id": "leh-04",
-    "name": "Lehenga Collection 4",
+    "name": "Ice Blue Off-Shoulder Ruffled Lehenga",
     "department": "Women",
     "type": "Lehenga",
     "price": 13000,
@@ -125,7 +125,7 @@
   },
   {
     "id": "leh-05",
-    "name": "Lehenga Collection 5",
+    "name": "Blush Pink Embellished Ruffled Lehenga",
     "department": "Women",
     "type": "Lehenga",
     "price": 14000,
@@ -156,7 +156,7 @@
   },
   {
     "id": "leh-06",
-    "name": "Lehenga Collection 6",
+    "name": "Midnight Blue Sparkly Ruffled Lehenga",
     "department": "Women",
     "type": "Lehenga",
     "price": 15000,
@@ -187,7 +187,7 @@
   },
   {
     "id": "leh-07",
-    "name": "Lehenga Collection 7",
+    "name": "Chocolate Brown Tiered Lehenga with Pearl Sleeve",
     "department": "Women",
     "type": "Lehenga",
     "price": 16000,
@@ -218,7 +218,7 @@
   },
   {
     "id": "leh-08",
-    "name": "Lehenga Collection 8",
+    "name": "Vibrant Red Ruffled Draped Gown",
     "department": "Women",
     "type": "Lehenga",
     "price": 17000,
@@ -249,7 +249,7 @@
   },
   {
     "id": "leh-09",
-    "name": "Lehenga Collection 9",
+    "name": "Deep Maroon Ruffled Draped Lehenga Gown",
     "department": "Women",
     "type": "Lehenga",
     "price": 18000,
@@ -280,7 +280,7 @@
   },
   {
     "id": "leh-10",
-    "name": "Lehenga Collection 10",
+    "name": "Pastel 3D Floral Applique Ivory Lehenga",
     "department": "Women",
     "type": "Lehenga",
     "price": 19000,
@@ -311,7 +311,7 @@
   },
   {
     "id": "leh-11",
-    "name": "Lehenga Collection 11",
+    "name": "Ombre Red & Cream Heavily Embroidered Lehenga",
     "department": "Women",
     "type": "Lehenga",
     "price": 20000,
@@ -342,7 +342,7 @@
   },
   {
     "id": "leh-12",
-    "name": "Lehenga Collection 12",
+    "name": "Ombre Pink & White Floral Embroidered Lehenga",
     "department": "Women",
     "type": "Lehenga",
     "price": 21000,

@@ -101,6 +101,43 @@ const Checkout = () => {
 
   return (
     <PageTransition>
+      <style dangerouslySetInnerHTML={{__html: `
+        .checkout-layout {
+          display: flex;
+          flex-direction: column-reverse;
+          gap: 2rem;
+          width: 100%;
+        }
+        @media (min-width: 900px) {
+          .checkout-layout {
+            flex-direction: row;
+            align-items: flex-start;
+          }
+          .checkout-form {
+            flex: 1;
+            padding-right: var(--space-8);
+          }
+          .checkout-summary {
+            width: 400px;
+            flex-shrink: 0;
+            position: sticky;
+            top: 120px;
+          }
+        }
+        .form-row {
+          display: flex;
+          flex-direction: column;
+          gap: var(--space-4);
+        }
+        @media (min-width: 600px) {
+          .form-row {
+            flex-direction: row;
+          }
+          .form-row > * {
+            flex: 1;
+          }
+        }
+      `}} />
       {/* Toast Notification Container */}
       <div style={{
         position: 'fixed', top: '24px', left: '50%', transform: toast ? 'translate(-50%, 0)' : 'translate(-50%, -20px)', zIndex: 9999,
@@ -161,19 +198,20 @@ const Checkout = () => {
       </AnimatePresence>
 
       <section style={{ paddingTop: 'var(--space-16)', paddingBottom: 'var(--space-20)', backgroundColor: 'var(--color-ivory)' }}>
-        <div className="container grid-12" style={{ alignItems: 'flex-start' }}>
+        <div className="container">
           
-          <div style={{ gridColumn: 'span 12', marginBottom: 'var(--space-8)' }}>
-            <Reveal mask><h1 style={{ fontSize: '3rem' }}>Checkout</h1></Reveal>
+          <div style={{ marginBottom: 'var(--space-8)' }}>
+            <Reveal mask><h1 style={{ fontSize: 'clamp(2.5rem, 5vw, 3rem)' }}>Checkout</h1></Reveal>
           </div>
 
-          {/* Form */}
-          <div style={{ gridColumn: 'span 7', paddingRight: 'var(--space-8)' }}>
+          <div className="checkout-layout">
+            {/* Form */}
+            <div className="checkout-form">
             <RevealGroup stagger={0.1}>
               <form onSubmit={handleSubmit}>
                 <Reveal width="100%">
                   <h3 style={{ fontSize: '1.25rem', marginBottom: 'var(--space-4)', borderBottom: '1px solid var(--color-ink)', paddingBottom: '8px' }}>Contact Information</h3>
-                  <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 'var(--space-4)' }}>
+                  <div className="form-row">
                     <Input label="Email" type="email" name="email" value={formData.email} onChange={handleChange} error={errors.email} />
                     <Input label="Phone" type="tel" name="phone" value={formData.phone} onChange={handleChange} error={errors.phone} />
                   </div>
@@ -184,7 +222,7 @@ const Checkout = () => {
                   <Input label="Full Name" name="name" value={formData.name} onChange={handleChange} error={errors.name} />
                   <Input label="Address" name="address" value={formData.address} onChange={handleChange} error={errors.address} />
                   
-                  <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: 'var(--space-4)' }}>
+                  <div className="form-row">
                     <Input label="City" name="city" value={formData.city} onChange={handleChange} error={errors.city} />
                     <Input label="State" name="state" value={formData.state} onChange={handleChange} error={errors.state} />
                     <Input label="PIN / ZIP" name="pincode" value={formData.pincode} onChange={handleChange} error={errors.pincode} />
@@ -232,7 +270,7 @@ const Checkout = () => {
           </div>
 
           {/* Order Summary */}
-          <div style={{ gridColumn: 'span 5', position: 'sticky', top: '120px', backgroundColor: 'var(--color-white)', padding: 'var(--space-6)', border: '1px solid var(--color-ink)' }}>
+          <div className="checkout-summary" style={{ backgroundColor: 'var(--color-white)', padding: 'var(--space-6)', border: '1px solid var(--color-ink)' }}>
             <h3 style={{ fontSize: '1.5rem', marginBottom: 'var(--space-6)', borderBottom: '1px solid var(--color-ink)', paddingBottom: '8px' }}>Order Summary</h3>
             
             <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-4)', marginBottom: 'var(--space-6)', maxHeight: '40vh', overflowY: 'auto' }}>
