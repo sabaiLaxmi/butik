@@ -219,6 +219,7 @@ const ProductDetail = () => {
                           minWidth: '60px',
                           padding: '12px 0',
                           border: '1px solid var(--color-ink)',
+                          borderRadius: '6px',
                           backgroundColor: selectedSize === size ? 'var(--color-ink)' : 'transparent',
                           color: selectedSize === size ? 'var(--color-white)' : 'var(--color-ink)',
                           fontFamily: 'var(--font-body)',
@@ -235,7 +236,7 @@ const ProductDetail = () => {
 
                 {/* Quantity and Add to Bag */}
                 <div style={{ display: 'flex', gap: 'var(--space-3)', marginBottom: 'var(--space-8)' }}>
-                  <div style={{ display: 'flex', alignItems: 'center', border: '1px solid var(--color-ink)' }}>
+                  <div style={{ display: 'flex', alignItems: 'center', border: '1px solid var(--color-ink)', borderRadius: '6px' }}>
                     <button onClick={() => setQuantity(Math.max(1, quantity - 1))} style={{ padding: '0 16px', border: 'none', background: 'none', cursor: 'pointer' }}><Minus size={14} /></button>
                     <span style={{ fontFamily: 'var(--font-body)', width: '30px', textAlign: 'center' }}>{quantity}</span>
                     <button onClick={() => setQuantity(quantity + 1)} style={{ padding: '0 16px', border: 'none', background: 'none', cursor: 'pointer' }}><Plus size={14} /></button>
@@ -271,6 +272,7 @@ const ProductDetail = () => {
                       transition: color 0.4s ease;
                       z-index: 1;
                       padding: 16px 0;
+                      border-radius: 6px;
                     }
                     .add-to-bag-btn::before {
                       content: '';
@@ -305,6 +307,7 @@ const ProductDetail = () => {
                       letter-spacing: 0.1em;
                       transition: all 0.3s ease;
                       padding: 16px 0;
+                      border-radius: 6px;
                     }
                     .place-order-btn:hover {
                       background: var(--color-ink);
