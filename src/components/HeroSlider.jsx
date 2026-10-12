@@ -75,10 +75,10 @@ const HeroSlider = () => {
       <HeroNavbar accentColor={currentProduct.accent} />
 
       {/* Main Content Area */}
-      <div className="relative z-10 flex-1 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-center pt-12 sm:pt-16 pb-1 sm:pb-2 min-h-0 overflow-hidden">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-2 sm:gap-6 lg:gap-4 items-center">
-          {/* Left Block: Product Text (Stacked above cloth on mobile) */}
-          <div className="lg:col-span-5 flex justify-center lg:justify-start order-1 lg:order-1 w-full">
+      <div className="relative z-10 flex-1 w-full max-w-7xl mx-auto px-4 sm:px-8 lg:px-10 xl:px-12 flex flex-col justify-center pt-16 sm:pt-20 md:pt-16 lg:pt-14 pb-2 sm:pb-4 min-h-0">
+        <div className="flex flex-col md:grid md:grid-cols-12 gap-3 sm:gap-6 lg:gap-6 items-center">
+          {/* Top/Left Block: Product Text (Centered on mobile, left on desktop) */}
+          <div className="w-full md:col-span-7 lg:col-span-5 flex justify-center md:justify-start order-1 min-w-0">
             <ProductText
               product={currentProduct}
               onPrev={handlePrev}
@@ -88,23 +88,23 @@ const HeroSlider = () => {
             />
           </div>
 
-          {/* Center Block: Cloth with AnimatePresence, floating motion & code-made ground shadow */}
-          <div className="lg:col-span-5 flex justify-center items-center order-2 lg:order-2 w-full">
+          {/* Middle/Center Block: Cloth with AnimatePresence, floating motion & code-made ground shadow */}
+          <div className="w-full md:col-span-5 lg:col-span-5 flex justify-center items-center order-2 min-w-0 my-1 sm:my-0">
             <ProductImage
               product={currentProduct}
               allProducts={products}
             />
           </div>
 
-          {/* Right Block: Price Tag & Interactive Size Selector */}
-          <div className="lg:col-span-2 hidden lg:flex justify-end order-3">
+          {/* Bottom/Right Block: Price Tag & Interactive Size Selector (Under image on mobile/tablet, right side on desktop) */}
+          <div className="w-full lg:col-span-2 flex justify-center lg:justify-end order-3 min-w-0 mt-1 sm:mt-0">
             <ProductDetailsRight product={currentProduct} />
           </div>
         </div>
       </div>
 
-      {/* Bottom Bar: Next Cloth Preview */}
-      <div className="relative z-20 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-2 sm:pb-4 flex items-center justify-end shrink-0">
+      {/* Bottom Bar: Next Cloth Preview (Hidden on screens < md per requirements) */}
+      <div className="relative z-20 w-full max-w-7xl mx-auto px-4 sm:px-8 lg:px-10 xl:px-12 pb-3 sm:pb-5 hidden md:flex items-center justify-end shrink-0">
 
         {/* 
           6. Bottom right: Small preview of the NEXT cloth (about 15% size) that scales in.

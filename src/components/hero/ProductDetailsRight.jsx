@@ -14,16 +14,15 @@ const ProductDetailsRight = ({ product }) => {
   const availableSizes = ['S', 'M', 'L'];
 
   return (
-    <div className="hidden lg:flex flex-col items-center justify-center gap-6 z-20">
+    <div className="flex lg:flex-col items-center justify-center gap-4 lg:gap-6 z-20">
       <AnimatePresence mode="wait">
         <motion.div
           key={product.id}
-          initial={{ opacity: 0, x: 20 }}
-          animate={{ opacity: 1, x: 0 }}
-          exit={{ opacity: 0, x: -20 }}
+          initial={{ opacity: 0, y: 15 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: -15 }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="flex flex-col items-center gap-6 p-4 rounded-3xl backdrop-blur-md bg-white/10 border border-white/20 shadow-xl"
-          style={{ borderRadius: '24px' }}
+          className="flex flex-row lg:flex-col items-center gap-3 sm:gap-4 lg:gap-6 px-3 py-2 sm:px-4 sm:py-3 lg:p-4 rounded-2xl sm:rounded-3xl backdrop-blur-md bg-white/10 border border-white/20 shadow-md"
         >
           {/* Price Tag Circle / Indicator */}
           <div className="flex flex-col items-center text-center px-2">
@@ -43,18 +42,18 @@ const ProductDetailsRight = ({ product }) => {
 
           <div
             style={{ backgroundColor: `${product.accent}30` }}
-            className="w-8 h-[1px]"
+            className="w-[1px] h-6 lg:w-8 lg:h-[1px]"
           />
 
           {/* Size Circles with Selected Highlighting */}
-          <div className="flex flex-col items-center gap-2.5">
+          <div className="flex flex-row lg:flex-col items-center gap-2 lg:gap-2.5">
             <span
               style={{ color: product.accent }}
               className="text-[10px] tracking-[0.2em] uppercase font-montserrat opacity-75 font-semibold"
             >
               Size
             </span>
-            <div className="flex flex-col gap-2">
+            <div className="flex flex-row lg:flex-col gap-1.5 sm:gap-2">
               {availableSizes.map((size) => {
                 const isSelected = selectedSize === size;
                 return (

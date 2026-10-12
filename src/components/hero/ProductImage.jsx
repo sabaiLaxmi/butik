@@ -87,7 +87,7 @@ const ProductImage = ({ product, allProducts = [] }) => {
               onError={handleImageError}
               loading="eager"
               decoding="async"
-              className="h-[210px] sm:h-[300px] md:h-[400px] lg:h-[500px] xl:h-[520px] max-h-[38vh] sm:max-h-[44vh] lg:max-h-none w-auto object-contain relative z-10 drop-shadow-sm pointer-events-none"
+              className="h-[260px] sm:h-[300px] md:h-[360px] lg:h-[440px] xl:h-[500px] max-h-[36vh] sm:max-h-[40vh] md:max-h-[50vh] lg:max-h-[55vh] xl:max-h-[58vh] w-auto object-contain relative z-10 drop-shadow-sm pointer-events-none"
             />
           </motion.div>
         </motion.div>

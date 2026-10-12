@@ -38,14 +38,14 @@ const ProductText = ({
   };
 
   return (
-    <div className="flex flex-col justify-center items-center sm:items-start text-center sm:text-left max-w-xl z-20 w-full mx-auto sm:mx-0">
+    <div className="flex flex-col justify-center items-center md:items-start text-center md:text-left max-w-xl z-20 w-full mx-auto md:mx-0 min-w-0">
       <AnimatePresence mode="wait">
         <motion.div
           key={product.id}
           initial="initial"
           animate="animate"
           exit="exit"
-          className="w-full flex flex-col items-center sm:items-start space-y-1.5 sm:space-y-3"
+          className="w-full min-w-0 flex flex-col items-center md:items-start space-y-1 sm:space-y-2 md:space-y-3"
         >
           {/* Badge & Collection Index */}
           <motion.div
@@ -86,7 +86,7 @@ const ProductText = ({
             custom={0.2}
             variants={lineVariants}
             style={{ color: product.accent }}
-            className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-serif font-bold leading-tight tracking-tight font-playfair drop-shadow-sm"
+            className="text-2xl sm:text-3xl md:text-4xl lg:text-[2.6rem] xl:text-5xl font-serif font-bold leading-[1.14] tracking-tight font-playfair drop-shadow-sm break-words"
           >
             {product.title}
           </motion.h1>
@@ -96,7 +96,7 @@ const ProductText = ({
             custom={0.3}
             variants={lineVariants}
             style={{ color: product.accent }}
-            className="text-[11px] sm:text-sm leading-relaxed opacity-85 font-montserrat max-w-md line-clamp-2 sm:line-clamp-none whitespace-pre-line px-2 sm:px-0"
+            className="text-[11px] sm:text-sm leading-relaxed opacity-85 font-montserrat max-w-md line-clamp-3 sm:line-clamp-none whitespace-pre-line px-2 sm:px-0"
           >
             {product.description}
           </motion.div>
@@ -105,7 +105,7 @@ const ProductText = ({
           <motion.div
             custom={0.4}
             variants={lineVariants}
-            className="flex flex-wrap items-center justify-center sm:justify-start gap-2.5 sm:gap-4 pt-1"
+            className="flex flex-wrap items-center justify-center md:justify-start gap-2 sm:gap-3 md:gap-4 pt-1"
           >
             {/* Price */}
             <div className="flex items-baseline gap-1.5 sm:gap-2">

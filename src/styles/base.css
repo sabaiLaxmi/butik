@@ -1,6 +1,6 @@
-* {
-  margin: 0;
-  padding: 0;
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -137,31 +137,32 @@ html.lenis { height: auto; }
 }
 
 
-/* Form elements & Button overrides */
-button, input, select, textarea {
-  appearance: none;
-  font-family: var(--font-body);
-  font-size: 12px;
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
-}
-
-@media (hover: none) {
+@layer base {
+  /* Form elements & Button overrides */
   button, input, select, textarea {
-    min-height: 48px;
+    appearance: none;
+    font-family: var(--font-body);
+    font-size: 12px;
+    letter-spacing: 0.05em;
   }
-}
 
-input, select, textarea {
-  border: 1px solid var(--color-ink);
-  background: transparent;
-  padding: 12px;
-  color: var(--color-ink);
-}
+  @media (hover: none) {
+    button, input, select, textarea {
+      min-height: 48px;
+    }
+  }
 
-input:focus-visible, select:focus-visible, textarea:focus-visible {
-  outline: 1px solid var(--color-ink);
-  outline-offset: 2px;
+  input, select, textarea {
+    border: 1px solid var(--color-ink);
+    background: transparent;
+    padding: 12px;
+    color: var(--color-ink);
+  }
+
+  input:focus-visible, select:focus-visible, textarea:focus-visible {
+    outline: 1px solid var(--color-ink);
+    outline-offset: 2px;
+  }
 }
 
 /* Button System */

@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
 import PageTransition from '../components/layout/PageTransition';
 import { Reveal, RevealGroup } from '../components/ui/Reveal';
 import ImageReveal from '../components/ui/ImageReveal';
@@ -47,7 +49,7 @@ const About = () => {
               <Reveal mask><h2 style={{ fontSize: '3rem', marginBottom: '24px' }}>Our Story</h2></Reveal>
               <Reveal>
                 <p style={{ fontSize: '1.125rem', lineHeight: 1.8, marginBottom: '24px' }}>
-                  Founded on the belief that traditional artistry deserves a modern stage. A%LAN Ethnic creates pieces that transcend seasons, celebrating India's rich textiles and centuries-old weaving techniques.
+                  Founded on the belief that traditional artistry deserves a modern stage. Vastrika creates pieces that transcend seasons, celebrating India's rich textiles and centuries-old weaving techniques.
                 </p>
               </Reveal>
               <Reveal>
@@ -80,53 +82,74 @@ const About = () => {
         </div>
       </section>
 
-      {/* The Atelier Split (Reversed) */}
-      <section style={{ paddingBottom: '80px', backgroundColor: 'var(--color-ivory)', paddingTop: '60px', borderTop: '1px solid var(--color-ink)' }}>
-        <style dangerouslySetInnerHTML={{__html: `
-          .atelier-layout {
-            display: grid;
-            grid-template-columns: 1fr;
-            gap: 48px;
-            align-items: center;
-          }
-          .atelier-images {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 16px;
-          }
-          @media (min-width: 900px) {
-            .atelier-layout {
-              grid-template-columns: 1fr 1fr;
-              gap: 64px;
-            }
-          }
-        `}} />
-        <div className="container atelier-layout">
+      {/* The Atelier Split Section */}
+      <section className="relative overflow-hidden py-12 md:py-16 px-4 md:px-8 max-w-6xl mx-auto w-full">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 items-center">
           
-          <div className="atelier-images">
-            <div style={{ aspectRatio: '1/1' }}>
-              <ImageReveal src="https://res.cloudinary.com/snuwehqj/image/upload/f_auto/q_auto/k2.jpg" alt="Studio Detail" />
+          {/* Images: On desktop left column (order-1), on mobile below text (order-2) */}
+          <motion.div 
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
+            className="order-2 md:order-1 grid grid-cols-2 gap-3 w-full"
+          >
+            {/* Image 1: Sherwani cutout on soft blush card */}
+            <div className="relative aspect-[3/4] max-h-[240px] md:max-h-[380px] bg-[#F3E6E2] rounded-2xl flex flex-col items-center justify-center p-3 md:p-5 overflow-hidden shadow-sm">
+              <img
+                src="https://res.cloudinary.com/snuwehqj/image/upload/f_auto,q_auto,h_700/v1791704696/sher.png"
+                alt="Artisanal Sherwani"
+                className="w-full h-full max-h-[85%] object-contain relative z-10 drop-shadow-sm select-none"
+              />
+              {/* Code-made blurred ellipse ground shadow */}
+              <div className="w-[65%] h-[14px] md:h-[18px] rounded-full bg-black/20 blur-md mt-1 z-0" />
             </div>
-            <div style={{ aspectRatio: '1/1', marginTop: '32px' }}>
-              <ImageReveal src="https://res.cloudinary.com/snuwehqj/image/upload/f_auto/q_auto/sarees2.jpg" alt="Studio Work" />
-            </div>
-          </div>
 
-          <div>
-            <RevealGroup stagger={0.15}>
-              <Reveal mask><h2 style={{ fontSize: 'clamp(2.5rem, 5vw, 3rem)', marginBottom: '24px' }}>The Atelier</h2></Reveal>
-              <Reveal>
-                <p style={{ fontSize: '1.125rem', lineHeight: 1.8, marginBottom: '16px', position: 'relative', zIndex: 2 }}>
-                  Our atelier is a space of vibrant creation, where age-old techniques meet contemporary silhouettes.
-                </p>
-              </Reveal>
-              <Reveal>
-                <p style={{ color: 'var(--color-stone)', lineHeight: 1.8, position: 'relative', zIndex: 2 }}>
-                  We partner directly with weaving clusters across India. Each intricate embroidery and delicate motif is hand-finished to ensure lasting beauty and unparalleled grace.
-                </p>
-              </Reveal>
-            </RevealGroup>
-          </div>
+            {/* Image 2: Saree set cutout on soft blush card, sits 24px lower (mt-6) on desktop */}
+            <div className="relative aspect-[3/4] max-h-[240px] md:max-h-[380px] bg-[#F3E6E2] rounded-2xl flex flex-col items-center justify-center p-3 md:p-5 overflow-hidden shadow-sm md:mt-6">
+              <img
+                src="https://res.cloudinary.com/snuwehqj/image/upload/f_auto,q_auto,h_700/v1791704710/sareeset.png"
+                alt="Handcrafted Saree Set"
+                className="w-full h-full max-h-[85%] object-contain relative z-10 drop-shadow-sm select-none"
+              />
+              {/* Code-made blurred ellipse ground shadow */}
+              <div className="w-[65%] h-[14px] md:h-[18px] rounded-full bg-black/20 blur-md mt-1 z-0" />
+            </div>
+          </motion.div>
+
+          {/* Text Block: On desktop right column (order-2), on mobile first (order-1) */}
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, delay: 0.15, ease: [0.22, 1, 0.36, 1] }}
+            className="order-1 md:order-2 flex flex-col justify-center space-y-3"
+          >
+            {/* Eyebrow */}
+            <span className="text-xs uppercase tracking-widest font-semibold text-[var(--color-stone)]">
+              OUR STORY
+            </span>
+
+            {/* Heading */}
+            <h2 className="text-3xl md:text-4xl font-serif text-[var(--color-ink)] font-normal leading-tight font-playfair">
+              The Atelier
+            </h2>
+
+            {/* One short paragraph, max 3 lines */}
+            <p className="text-sm md:text-base text-[var(--color-stone)] leading-relaxed max-w-lg m-0">
+              Our atelier is a space of vibrant creation, where age-old techniques meet contemporary silhouettes. We partner directly with weaving clusters across India, finishing each piece with care.
+            </p>
+
+            {/* Small link with underline hover */}
+            <div className="pt-1">
+              <Link
+                to="/about"
+                className="inline-flex items-center text-sm font-medium text-[var(--color-ink)] hover:underline underline-offset-4 transition-all"
+              >
+                Our Story &rarr;
+              </Link>
+            </div>
+          </motion.div>
 
         </div>
       </section>
