@@ -6,7 +6,9 @@
     "type": "Lehenga",
     "price": 10000,
     "tags": [
-      "new"
+      "new",
+      "bestseller",
+      "sale"
     ],
     "fabric": "Premium",
     "work": "Handcrafted",
@@ -26,9 +28,11 @@
     "stock": 10,
     "imageQuery": "Lehenga",
     "images": [
-      "https://res.cloudinary.com/snuwehqj/image/upload/f_auto/q_auto/l1.png"
+      "https://res.cloudinary.com/snuwehqj/image/upload/f_auto,q_auto,h_600/v1791704695/lehngar.png"
     ],
-    "demo": true
+    "demo": true,
+    "originalPrice": 16667,
+    "addedAt": "2026-10-10T08:00:00.000Z"
   },
   {
     "id": "leh-02",
@@ -37,7 +41,8 @@
     "type": "Lehenga",
     "price": 11000,
     "tags": [
-      "new"
+      "new",
+      "sale"
     ],
     "fabric": "Premium",
     "work": "Handcrafted",
@@ -59,7 +64,9 @@
     "images": [
       "https://res.cloudinary.com/snuwehqj/image/upload/v1791351632/lehnga_2.jpg"
     ],
-    "demo": true
+    "demo": true,
+    "originalPrice": 14667,
+    "addedAt": "2026-10-09T08:00:00.000Z"
   },
   {
     "id": "leh-03",
@@ -68,7 +75,8 @@
     "type": "Lehenga",
     "price": 12000,
     "tags": [
-      "new"
+      "new",
+      "sale"
     ],
     "fabric": "Premium",
     "work": "Handcrafted",
@@ -90,7 +98,9 @@
     "images": [
       "https://res.cloudinary.com/snuwehqj/image/upload/v1791351631/lehnga_3.jpg"
     ],
-    "demo": true
+    "demo": true,
+    "originalPrice": 16000,
+    "addedAt": "2026-10-08T08:00:00.000Z"
   },
   {
     "id": "leh-04",
@@ -121,7 +131,8 @@
     "images": [
       "https://res.cloudinary.com/snuwehqj/image/upload/v1791351631/lehnga_4.jpg"
     ],
-    "demo": true
+    "demo": true,
+    "addedAt": "2026-10-07T08:00:00.000Z"
   },
   {
     "id": "leh-05",
@@ -152,7 +163,8 @@
     "images": [
       "https://res.cloudinary.com/snuwehqj/image/upload/v1791351631/lehnga_5.jpg"
     ],
-    "demo": true
+    "demo": true,
+    "addedAt": "2026-10-06T08:00:00.000Z"
   },
   {
     "id": "leh-06",
@@ -161,7 +173,8 @@
     "type": "Lehenga",
     "price": 15000,
     "tags": [
-      "new"
+      "new",
+      "bestseller"
     ],
     "fabric": "Premium",
     "work": "Handcrafted",
@@ -181,9 +194,10 @@
     "stock": 10,
     "imageQuery": "Lehenga",
     "images": [
-      "https://res.cloudinary.com/snuwehqj/image/upload/v1791351632/lehnga_6.jpg"
+      "https://res.cloudinary.com/snuwehqj/image/upload/f_auto,q_auto,h_600/v1791704699/fish_1.png"
     ],
-    "demo": true
+    "demo": true,
+    "addedAt": "2026-10-05T08:00:00.000Z"
   },
   {
     "id": "leh-07",
@@ -214,7 +228,8 @@
     "images": [
       "https://res.cloudinary.com/snuwehqj/image/upload/v1791351631/lehnga_7.jpg"
     ],
-    "demo": true
+    "demo": true,
+    "addedAt": "2026-10-04T08:00:00.000Z"
   },
   {
     "id": "leh-08",
@@ -245,7 +260,8 @@
     "images": [
       "https://res.cloudinary.com/snuwehqj/image/upload/v1791351651/lehnga_8_-_Copy.jpg"
     ],
-    "demo": true
+    "demo": true,
+    "addedAt": "2026-10-03T08:00:00.000Z"
   },
   {
     "id": "leh-09",
@@ -276,7 +292,8 @@
     "images": [
       "https://res.cloudinary.com/snuwehqj/image/upload/v1791351651/lehnga_9_-_Copy.jpg"
     ],
-    "demo": true
+    "demo": true,
+    "addedAt": "2026-10-02T08:00:00.000Z"
   },
   {
     "id": "leh-10",
@@ -307,7 +324,8 @@
     "images": [
       "https://res.cloudinary.com/snuwehqj/image/upload/f_auto/q_auto/l3.jpg"
     ],
-    "demo": true
+    "demo": true,
+    "addedAt": "2026-10-01T08:00:00.000Z"
   },
   {
     "id": "leh-11",
@@ -338,7 +356,8 @@
     "images": [
       "https://res.cloudinary.com/snuwehqj/image/upload/f_auto/q_auto/l2.jpg"
     ],
-    "demo": true
+    "demo": true,
+    "addedAt": "2026-09-30T08:00:00.000Z"
   },
   {
     "id": "leh-12",
@@ -369,7 +388,8 @@
     "images": [
       "https://res.cloudinary.com/snuwehqj/image/upload/f_auto/q_auto/l1.png"
     ],
-    "demo": true
+    "demo": true,
+    "addedAt": "2026-09-29T08:00:00.000Z"
   },
   {
     "id": "shw-01",
@@ -378,7 +398,9 @@
     "type": "Sherwani",
     "price": 10000,
     "tags": [
-      "new"
+      "new",
+      "bestseller",
+      "sale"
     ],
     "fabric": "Premium",
     "work": "Handcrafted",
@@ -398,9 +420,11 @@
     "stock": 10,
     "imageQuery": "Sherwani",
     "images": [
-      "https://res.cloudinary.com/snuwehqj/image/upload/f_auto/q_auto/l2.jpg"
+      "https://res.cloudinary.com/snuwehqj/image/upload/f_auto,q_auto,h_600/v1791704696/sher.png"
     ],
-    "demo": true
+    "demo": true,
+    "originalPrice": 13333,
+    "addedAt": "2026-10-10T08:00:00.000Z"
   },
   {
     "id": "shw-02",
@@ -409,7 +433,8 @@
     "type": "Sherwani",
     "price": 11000,
     "tags": [
-      "new"
+      "new",
+      "sale"
     ],
     "fabric": "Premium",
     "work": "Handcrafted",
@@ -431,7 +456,9 @@
     "images": [
       "https://res.cloudinary.com/snuwehqj/image/upload/v1791436016/sherwani_9.jpg"
     ],
-    "demo": true
+    "demo": true,
+    "originalPrice": 14667,
+    "addedAt": "2026-10-09T08:00:00.000Z"
   },
   {
     "id": "shw-03",
@@ -462,7 +489,8 @@
     "images": [
       "https://res.cloudinary.com/snuwehqj/image/upload/v1791436017/sherwani_13.jpg"
     ],
-    "demo": true
+    "demo": true,
+    "addedAt": "2026-10-08T08:00:00.000Z"
   },
   {
     "id": "shw-04",
@@ -493,7 +521,8 @@
     "images": [
       "https://res.cloudinary.com/snuwehqj/image/upload/v1791436016/sherwani_8.jpg"
     ],
-    "demo": true
+    "demo": true,
+    "addedAt": "2026-10-07T08:00:00.000Z"
   },
   {
     "id": "shw-05",
@@ -524,7 +553,8 @@
     "images": [
       "https://res.cloudinary.com/snuwehqj/image/upload/v1791436016/sherwani_12.jpg"
     ],
-    "demo": true
+    "demo": true,
+    "addedAt": "2026-10-06T08:00:00.000Z"
   },
   {
     "id": "shw-06",
@@ -555,7 +585,8 @@
     "images": [
       "https://res.cloudinary.com/snuwehqj/image/upload/v1791436016/sherwani_15.jpg"
     ],
-    "demo": true
+    "demo": true,
+    "addedAt": "2026-10-05T08:00:00.000Z"
   },
   {
     "id": "shw-07",
@@ -586,7 +617,8 @@
     "images": [
       "https://res.cloudinary.com/snuwehqj/image/upload/v1791436016/sherwani_10.jpg"
     ],
-    "demo": true
+    "demo": true,
+    "addedAt": "2026-10-04T08:00:00.000Z"
   },
   {
     "id": "shw-08",
@@ -617,7 +649,8 @@
     "images": [
       "https://res.cloudinary.com/snuwehqj/image/upload/v1791436016/sherwani_14.jpg"
     ],
-    "demo": true
+    "demo": true,
+    "addedAt": "2026-10-03T08:00:00.000Z"
   },
   {
     "id": "shw-09",
@@ -648,7 +681,8 @@
     "images": [
       "https://res.cloudinary.com/snuwehqj/image/upload/v1791436959/shervani_3.jpg"
     ],
-    "demo": true
+    "demo": true,
+    "addedAt": "2026-10-02T08:00:00.000Z"
   },
   {
     "id": "shw-10",
@@ -679,7 +713,8 @@
     "images": [
       "https://res.cloudinary.com/snuwehqj/image/upload/v1791436959/shervani_6.jpg"
     ],
-    "demo": true
+    "demo": true,
+    "addedAt": "2026-10-01T08:00:00.000Z"
   },
   {
     "id": "shw-11",
@@ -710,7 +745,8 @@
     "images": [
       "https://res.cloudinary.com/snuwehqj/image/upload/v1791436959/shervani_5.jpg"
     ],
-    "demo": true
+    "demo": true,
+    "addedAt": "2026-09-30T08:00:00.000Z"
   },
   {
     "id": "shw-12",
@@ -741,7 +777,8 @@
     "images": [
       "https://res.cloudinary.com/snuwehqj/image/upload/v1791436959/shervani_2.jpg"
     ],
-    "demo": true
+    "demo": true,
+    "addedAt": "2026-09-29T08:00:00.000Z"
   },
   {
     "id": "sar-01",
@@ -750,7 +787,9 @@
     "type": "Saree",
     "price": 10000,
     "tags": [
-      "new"
+      "new",
+      "bestseller",
+      "sale"
     ],
     "fabric": "Premium",
     "work": "Handcrafted",
@@ -770,9 +809,11 @@
     "stock": 10,
     "imageQuery": "Saree",
     "images": [
-      "https://res.cloudinary.com/snuwehqj/image/upload/f_auto/q_auto/sarees1.png"
+      "https://res.cloudinary.com/snuwehqj/image/upload/f_auto,q_auto,h_600/v1791704710/sareeset.png"
     ],
-    "demo": true
+    "demo": true,
+    "originalPrice": 15385,
+    "addedAt": "2026-10-10T08:00:00.000Z"
   },
   {
     "id": "sar-02",
@@ -781,7 +822,8 @@
     "type": "Saree",
     "price": 11000,
     "tags": [
-      "new"
+      "new",
+      "sale"
     ],
     "fabric": "Premium",
     "work": "Handcrafted",
@@ -803,7 +845,9 @@
     "images": [
       "https://res.cloudinary.com/snuwehqj/image/upload/v1791438162/saree_2.jpg"
     ],
-    "demo": true
+    "demo": true,
+    "originalPrice": 14667,
+    "addedAt": "2026-10-09T08:00:00.000Z"
   },
   {
     "id": "sar-03",
@@ -834,7 +878,8 @@
     "images": [
       "https://res.cloudinary.com/snuwehqj/image/upload/v1791438162/saree_4.jpg"
     ],
-    "demo": true
+    "demo": true,
+    "addedAt": "2026-10-08T08:00:00.000Z"
   },
   {
     "id": "sar-04",
@@ -865,7 +910,8 @@
     "images": [
       "https://res.cloudinary.com/snuwehqj/image/upload/v1791438162/saree_3.jpg"
     ],
-    "demo": true
+    "demo": true,
+    "addedAt": "2026-10-07T08:00:00.000Z"
   },
   {
     "id": "sar-05",
@@ -896,7 +942,8 @@
     "images": [
       "https://res.cloudinary.com/snuwehqj/image/upload/v1791438162/saree_5.jpg"
     ],
-    "demo": true
+    "demo": true,
+    "addedAt": "2026-10-06T08:00:00.000Z"
   },
   {
     "id": "sar-06",
@@ -927,7 +974,8 @@
     "images": [
       "https://res.cloudinary.com/snuwehqj/image/upload/v1791438162/saree_6.jpg"
     ],
-    "demo": true
+    "demo": true,
+    "addedAt": "2026-10-05T08:00:00.000Z"
   },
   {
     "id": "sar-07",
@@ -958,7 +1006,8 @@
     "images": [
       "https://res.cloudinary.com/snuwehqj/image/upload/v1791438161/saree_8.jpg"
     ],
-    "demo": true
+    "demo": true,
+    "addedAt": "2026-10-04T08:00:00.000Z"
   },
   {
     "id": "sar-08",
@@ -989,7 +1038,8 @@
     "images": [
       "https://res.cloudinary.com/snuwehqj/image/upload/v1791438161/saree_7.jpg"
     ],
-    "demo": true
+    "demo": true,
+    "addedAt": "2026-10-03T08:00:00.000Z"
   },
   {
     "id": "sar-09",
@@ -1020,7 +1070,8 @@
     "images": [
       "https://res.cloudinary.com/snuwehqj/image/upload/v1791438161/saree_9.jpg"
     ],
-    "demo": true
+    "demo": true,
+    "addedAt": "2026-10-02T08:00:00.000Z"
   },
   {
     "id": "sar-10",
@@ -1051,7 +1102,8 @@
     "images": [
       "https://res.cloudinary.com/snuwehqj/image/upload/f_auto/q_auto/sarees1.png"
     ],
-    "demo": true
+    "demo": true,
+    "addedAt": "2026-10-01T08:00:00.000Z"
   },
   {
     "id": "sar-11",
@@ -1082,7 +1134,8 @@
     "images": [
       "https://res.cloudinary.com/snuwehqj/image/upload/f_auto/q_auto/sarees3.jpg"
     ],
-    "demo": true
+    "demo": true,
+    "addedAt": "2026-09-30T08:00:00.000Z"
   },
   {
     "id": "sar-12",
@@ -1113,7 +1166,8 @@
     "images": [
       "https://res.cloudinary.com/snuwehqj/image/upload/f_auto/q_auto/sarees2.jpg"
     ],
-    "demo": true
+    "demo": true,
+    "addedAt": "2026-09-29T08:00:00.000Z"
   },
   {
     "id": "acc-01",
@@ -1122,7 +1176,8 @@
     "type": "Accessories",
     "price": 10000,
     "tags": [
-      "new"
+      "new",
+      "sale"
     ],
     "fabric": "Premium",
     "work": "Handcrafted",
@@ -1139,9 +1194,11 @@
     "stock": 10,
     "imageQuery": "Accessories",
     "images": [
-      "https://images.unsplash.com/photo-1599643478524-fb66f70d00f8?w=800&q=80"
+      "https://res.cloudinary.com/snuwehqj/image/upload/v1791438719/Accessories_17_-_Copy.jpg"
     ],
-    "demo": true
+    "demo": true,
+    "originalPrice": 13333,
+    "addedAt": "2026-10-10T08:00:00.000Z"
   },
   {
     "id": "acc-02",
@@ -1150,7 +1207,8 @@
     "type": "Accessories",
     "price": 11000,
     "tags": [
-      "new"
+      "new",
+      "sale"
     ],
     "fabric": "Premium",
     "work": "Handcrafted",
@@ -1169,7 +1227,9 @@
     "images": [
       "https://res.cloudinary.com/snuwehqj/image/upload/v1791438718/Accessories_19_-_Copy.jpg"
     ],
-    "demo": true
+    "demo": true,
+    "originalPrice": 14667,
+    "addedAt": "2026-10-09T08:00:00.000Z"
   },
   {
     "id": "acc-03",
@@ -1197,7 +1257,8 @@
     "images": [
       "https://res.cloudinary.com/snuwehqj/image/upload/v1791438718/Accessories_20_-_Copy.jpg"
     ],
-    "demo": true
+    "demo": true,
+    "addedAt": "2026-10-08T08:00:00.000Z"
   },
   {
     "id": "acc-04",
@@ -1225,7 +1286,8 @@
     "images": [
       "https://res.cloudinary.com/snuwehqj/image/upload/v1791438719/Accessories_17_-_Copy.jpg"
     ],
-    "demo": true
+    "demo": true,
+    "addedAt": "2026-10-07T08:00:00.000Z"
   },
   {
     "id": "acc-05",
@@ -1253,7 +1315,8 @@
     "images": [
       "https://res.cloudinary.com/snuwehqj/image/upload/v1791438748/Accessories_7_-_Copy.jpg"
     ],
-    "demo": true
+    "demo": true,
+    "addedAt": "2026-10-06T08:00:00.000Z"
   },
   {
     "id": "acc-06",
@@ -1281,7 +1344,8 @@
     "images": [
       "https://res.cloudinary.com/snuwehqj/image/upload/v1791438748/Accessories_23_-_Copy.jpg"
     ],
-    "demo": true
+    "demo": true,
+    "addedAt": "2026-10-05T08:00:00.000Z"
   },
   {
     "id": "acc-07",
@@ -1309,7 +1373,8 @@
     "images": [
       "https://res.cloudinary.com/snuwehqj/image/upload/v1791438749/Accessories_4_-_Copy.jpg"
     ],
-    "demo": true
+    "demo": true,
+    "addedAt": "2026-10-04T08:00:00.000Z"
   },
   {
     "id": "acc-08",
@@ -1337,7 +1402,8 @@
     "images": [
       "https://res.cloudinary.com/snuwehqj/image/upload/v1791438749/Accessories_6_-_Copy.jpg"
     ],
-    "demo": true
+    "demo": true,
+    "addedAt": "2026-10-03T08:00:00.000Z"
   },
   {
     "id": "acc-09",
@@ -1365,7 +1431,8 @@
     "images": [
       "https://res.cloudinary.com/snuwehqj/image/upload/f_auto/q_auto/Accessories_9.jpg"
     ],
-    "demo": true
+    "demo": true,
+    "addedAt": "2026-10-02T08:00:00.000Z"
   },
   {
     "id": "acc-10",
@@ -1393,7 +1460,8 @@
     "images": [
       "https://res.cloudinary.com/snuwehqj/image/upload/f_auto/q_auto/Accessories_4.jpg"
     ],
-    "demo": true
+    "demo": true,
+    "addedAt": "2026-10-01T08:00:00.000Z"
   },
   {
     "id": "acc-11",
@@ -1421,7 +1489,8 @@
     "images": [
       "https://res.cloudinary.com/snuwehqj/image/upload/f_auto/q_auto/Accessories_5.jpg"
     ],
-    "demo": true
+    "demo": true,
+    "addedAt": "2026-09-30T08:00:00.000Z"
   },
   {
     "id": "acc-12",
@@ -1449,7 +1518,8 @@
     "images": [
       "https://res.cloudinary.com/snuwehqj/image/upload/f_auto/q_auto/Accessories_3.jpg"
     ],
-    "demo": true
+    "demo": true,
+    "addedAt": "2026-09-29T08:00:00.000Z"
   },
   {
     "id": "kur-01",
@@ -1458,7 +1528,9 @@
     "type": "Kurta",
     "price": 10000,
     "tags": [
-      "new"
+      "new",
+      "bestseller",
+      "sale"
     ],
     "fabric": "Premium",
     "work": "Handcrafted",
@@ -1478,9 +1550,11 @@
     "stock": 10,
     "imageQuery": "Kurta",
     "images": [
-      "https://res.cloudinary.com/snuwehqj/image/upload/f_auto/q_auto/l3.jpg"
+      "https://res.cloudinary.com/snuwehqj/image/upload/f_auto,q_auto,h_600/v1791704697/kurtaset.png"
     ],
-    "demo": true
+    "demo": true,
+    "originalPrice": 14286,
+    "addedAt": "2026-10-10T08:00:00.000Z"
   },
   {
     "id": "kur-02",
@@ -1489,7 +1563,8 @@
     "type": "Kurta",
     "price": 11000,
     "tags": [
-      "new"
+      "new",
+      "sale"
     ],
     "fabric": "Premium",
     "work": "Handcrafted",
@@ -1511,7 +1586,9 @@
     "images": [
       "https://res.cloudinary.com/snuwehqj/image/upload/v1791437677/emerald_silk.jpg"
     ],
-    "demo": true
+    "demo": true,
+    "originalPrice": 14667,
+    "addedAt": "2026-10-09T08:00:00.000Z"
   },
   {
     "id": "kur-03",
@@ -1542,7 +1619,8 @@
     "images": [
       "https://res.cloudinary.com/snuwehqj/image/upload/v1791437677/dusty_rose.jpg"
     ],
-    "demo": true
+    "demo": true,
+    "addedAt": "2026-10-08T08:00:00.000Z"
   },
   {
     "id": "kur-04",
@@ -1573,7 +1651,8 @@
     "images": [
       "https://res.cloudinary.com/snuwehqj/image/upload/v1791437676/mens_blue_kurta.jpg"
     ],
-    "demo": true
+    "demo": true,
+    "addedAt": "2026-10-07T08:00:00.000Z"
   },
   {
     "id": "kur-05",
@@ -1604,7 +1683,8 @@
     "images": [
       "https://res.cloudinary.com/snuwehqj/image/upload/v1791437676/men_white_chikankari.jpg"
     ],
-    "demo": true
+    "demo": true,
+    "addedAt": "2026-10-06T08:00:00.000Z"
   },
   {
     "id": "kur-06",
@@ -1635,7 +1715,8 @@
     "images": [
       "https://res.cloudinary.com/snuwehqj/image/upload/v1791437676/white.jpg"
     ],
-    "demo": true
+    "demo": true,
+    "addedAt": "2026-10-05T08:00:00.000Z"
   },
   {
     "id": "kur-07",
@@ -1666,7 +1747,8 @@
     "images": [
       "https://res.cloudinary.com/snuwehqj/image/upload/v1791437676/men_rose_kurta.jpg"
     ],
-    "demo": true
+    "demo": true,
+    "addedAt": "2026-10-04T08:00:00.000Z"
   },
   {
     "id": "kur-08",
@@ -1697,7 +1779,8 @@
     "images": [
       "https://res.cloudinary.com/snuwehqj/image/upload/v1791437676/blue_kurta.jpg"
     ],
-    "demo": true
+    "demo": true,
+    "addedAt": "2026-10-03T08:00:00.000Z"
   },
   {
     "id": "kur-09",
@@ -1728,7 +1811,8 @@
     "images": [
       "https://res.cloudinary.com/snuwehqj/image/upload/v1791437676/musterd_kurta.jpg"
     ],
-    "demo": true
+    "demo": true,
+    "addedAt": "2026-10-02T08:00:00.000Z"
   },
   {
     "id": "kur-10",
@@ -1759,7 +1843,8 @@
     "images": [
       "https://res.cloudinary.com/snuwehqj/image/upload/f_auto/q_auto/k1"
     ],
-    "demo": true
+    "demo": true,
+    "addedAt": "2026-10-01T08:00:00.000Z"
   },
   {
     "id": "kur-11",
@@ -1790,7 +1875,8 @@
     "images": [
       "https://res.cloudinary.com/snuwehqj/image/upload/f_auto/q_auto/k2.jpg"
     ],
-    "demo": true
+    "demo": true,
+    "addedAt": "2026-09-30T08:00:00.000Z"
   },
   {
     "id": "kur-12",
@@ -1821,6 +1907,7 @@
     "images": [
       "https://res.cloudinary.com/snuwehqj/image/upload/f_auto/q_auto/k3.jpg"
     ],
-    "demo": true
+    "demo": true,
+    "addedAt": "2026-09-29T08:00:00.000Z"
   }
 ]

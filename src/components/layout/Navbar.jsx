@@ -29,6 +29,11 @@ const Navbar = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  // On the home page, the full-screen HeroSlider displays the requested pill glassmorphism navbar
+  if (pathname === '/') {
+    return null;
+  }
+
   return (
     <>
       <style>{`

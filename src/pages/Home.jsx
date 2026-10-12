@@ -4,12 +4,11 @@ import { Link } from 'react-router-dom';
 import PageTransition from '../components/layout/PageTransition';
 import productsData from '../data/products.json';
 import { useCart } from '../context/CartContext';
+import HeroSlider from '../components/HeroSlider';
 
 import { formatPrice } from '../utils/formatPrice';
 
 import BounceCards from '../components/ui/BounceCards';
-
-import AnimatedHero from '../components/ui/AnimatedHero';
 
 const Home = () => {
   const { addToCart } = useCart();
@@ -79,8 +78,9 @@ const Home = () => {
         }
       `}} />
 
-      {/* Hero Carousel Section replaced with AnimatedHero */}
-      <AnimatedHero />
+      {/* Full-Screen Auto-Playing Fashion Hero Slider */}
+      <HeroSlider />
+
 
       {/* BounceCards Interactive Showcase */}
       <section style={{ padding: '80px 16px', backgroundColor: 'var(--color-ivory)', display: 'flex', flexDirection: 'column', alignItems: 'center', overflow: 'hidden' }}>
@@ -88,11 +88,11 @@ const Home = () => {
         <p style={{ textAlign: 'center', color: 'var(--color-stone)', marginBottom: '64px', maxWidth: '600px', fontSize: 'clamp(0.9rem, 3vw, 1rem)' }}>Hover over the gallery to explore pieces that match your style.</p>
         <BounceCards
           images={[
-            productsData.find(p => p.type === 'Lehenga')?.images[0] || "https://res.cloudinary.com/snuwehqj/image/upload/f_auto/q_auto/l3.jpg",
-            productsData.find(p => p.type === 'Sherwani')?.images[0] || "https://res.cloudinary.com/snuwehqj/image/upload/f_auto/q_auto/sarees3.jpg",
-            productsData.find(p => p.type === 'Saree')?.images[0] || "https://res.cloudinary.com/snuwehqj/image/upload/f_auto/q_auto/l1.png",
-            productsData.find(p => p.department === 'Accessories')?.images[0] || "https://res.cloudinary.com/snuwehqj/image/upload/f_auto/q_auto/sarees1.png",
-            "https://res.cloudinary.com/snuwehqj/image/upload/f_auto/q_auto/l2.jpg"
+            "https://res.cloudinary.com/snuwehqj/image/upload/v1791438162/saree_2.jpg",
+            "https://res.cloudinary.com/snuwehqj/image/upload/v1791438162/saree_4.jpg",
+            "https://res.cloudinary.com/snuwehqj/image/upload/v1791438162/saree_3.jpg",
+            "https://res.cloudinary.com/snuwehqj/image/upload/v1791438161/saree_7.jpg",
+            "https://res.cloudinary.com/snuwehqj/image/upload/v1791438162/saree_5.jpg"
           ]}
           containerWidth={bounceWidth}
           containerHeight={250}
@@ -141,7 +141,12 @@ const Home = () => {
              <div style={{ position: 'absolute', bottom: 0, width: '100%', padding: '16px', background: 'linear-gradient(transparent, rgba(0,0,0,0.7))', color: '#fff', textAlign: 'center' }}>SILK SAREES</div>
           </div>
           <div style={{ height: '240px', backgroundColor: '#eee', borderRadius: '0 0 40px 0', overflow: 'hidden', position: 'relative' }}>
-             <img src={productsData.find(p => p.type === 'Accessories' || p.department === 'Accessories')?.images[0]} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+             <img 
+               src={productsData.find(p => p.type === 'Accessories' || p.department === 'Accessories')?.images[0] || "https://res.cloudinary.com/snuwehqj/image/upload/v1791438718/Accessories_19_-_Copy.jpg"} 
+               alt="Accessories"
+               onError={(e) => { e.currentTarget.src = "https://res.cloudinary.com/snuwehqj/image/upload/v1791438718/Accessories_19_-_Copy.jpg"; }}
+               style={{ width: '100%', height: '100%', objectFit: 'cover' }} 
+             />
              <div style={{ position: 'absolute', bottom: 0, width: '100%', padding: '16px', background: 'linear-gradient(transparent, rgba(0,0,0,0.7))', color: '#fff', textAlign: 'center' }}>ACCESSORIES</div>
           </div>
         </div>
@@ -178,7 +183,12 @@ const Home = () => {
             return (
             <div key={product.id} style={{ display: 'flex', flexDirection: 'column' }}>
               <div style={{ position: 'relative', aspectRatio: '3/4', backgroundColor: '#eee', marginBottom: '16px' }}>
-                <img src={product.images[0]} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                <img 
+                  src={product.images[0]} 
+                  alt={product.name}
+                  onError={(e) => { e.currentTarget.src = "https://res.cloudinary.com/snuwehqj/image/upload/v1791438719/Accessories_17_-_Copy.jpg"; }}
+                  style={{ width: '100%', height: '100%', objectFit: 'cover' }} 
+                />
                 <div style={{ position: 'absolute', top: '8px', right: '8px', backgroundColor: '#6a0dad', color: '#fff', padding: '4px 8px', fontSize: '10px', fontWeight: 500 }}>33% off</div>
                 <div style={{ position: 'absolute', top: '8px', left: '8px', backgroundColor: '#8b5a2b', color: '#fff', padding: '4px 8px', fontSize: '10px', fontWeight: 500 }}>New arrival</div>
                 <div style={{ position: 'absolute', bottom: '8px', left: 0, width: '100%', display: 'flex', justifyContent: 'center', gap: '4px', padding: '0 8px', flexWrap: 'wrap' }}>

@@ -35,8 +35,7 @@ function App() {
   const [showPreloader, setShowPreloader] = useState(true);
 
   useEffect(() => {
-    // Only show preloader on first home page load, or always on mount.
-    // If we only want it on mount, the current state handles it.
+    
     
     const titles = {
       '/': 'VASTRIKA | Elegance, With Intention.',

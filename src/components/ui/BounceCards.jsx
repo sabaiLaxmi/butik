@@ -134,7 +134,22 @@ export default function BounceCards({
           onMouseEnter={() => pushSiblings(idx)}
           onMouseLeave={resetSiblings}
         >
-          <img className="image" src={src} alt={`card-${idx}`} />
+          <img
+            className="image"
+            src={src}
+            alt={`card-${idx}`}
+            loading="eager"
+            onError={(e) => {
+              const fallbackList = [
+                'https://res.cloudinary.com/snuwehqj/image/upload/v1791438162/saree_2.jpg',
+                'https://res.cloudinary.com/snuwehqj/image/upload/v1791438162/saree_4.jpg',
+                'https://res.cloudinary.com/snuwehqj/image/upload/v1791438162/saree_3.jpg',
+                'https://res.cloudinary.com/snuwehqj/image/upload/v1791438161/saree_7.jpg',
+                'https://res.cloudinary.com/snuwehqj/image/upload/v1791438162/saree_5.jpg'
+              ];
+              e.currentTarget.src = fallbackList[idx % fallbackList.length];
+            }}
+          />
         </div>
       ))}
     </div>

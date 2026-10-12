@@ -2,9 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border-radius: 0 !important;
-  box-shadow: none !important;
 }
+
 
 html {
   font-size: 16px;
@@ -141,7 +140,6 @@ html.lenis { height: auto; }
 /* Form elements & Button overrides */
 button, input, select, textarea {
   appearance: none;
-  border-radius: 0 !important;
   font-family: var(--font-body);
   font-size: 12px;
   text-transform: uppercase;
